@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lut.licon.netty.ddd.persistence.mapper.AccountMapper">
+	<resultMap id="BASE" type="com.lut.licon.netty.ddd.persistence.po.AccountPO">
+		<result column="USER_ID" property="userId"/>
+		<result column="ACCOUNT_ID" property="accountId"/>
+		<result column="ACCOUNT_NUMBER" property="accountNumber"/>
+		<result column="AVAILABLE" property="available"/>
+		<result column="DAILY_LIMIT" property="dailyLimit"/>
+		<result column="CURRENCY" property="currency"/>
+	</resultMap>
+
+	<insert id="insert" parameterType="com.lut.licon.netty.ddd.persistence.po.AccountPO" >
+		insert into account(`USER_ID`,`ACCOUNT_ID`,`ACCOUNT_NUMBER`,`AVAILABLE`,`DAILY_LIMIT`,`CURRENCY`)
+					values(#{userId},#{accountId},#{accountNumber},#{available},#{dailyLimit},#{currency})
+	</insert>
+	<update id="update" parameterType="com.lut.licon.netty.ddd.persistence.po.AccountPO">
+		update account
+		<trim prefix="set" suffixOverrides=",">
+			<if test="accountId != null">ACCOUNT_ID = #{accountId},</if>
+			<if test="accountNumber != null">ACCOUNT_NUMBER = #{accountNumber},</if>
+			<if test="available != null">AVAILABLE = #{available},</if>
+			<if test="dailyLimit != null">DAILY_LIMIT = #{dailyLimit},</if>
+			<if test="currency != null">CURRENCY = #{currency},</if>
+		</trim>
+		where
+			USER_ID = #{userId}
+	</update>
+	<select id="queryByUserId" resultMap="BASE" parameterType="java.lang.Long">
+		select
+			USER_ID,
+			ACCOUNT_ID,
+			ACCOUNT_NUMBER,
+			AVAILABLE,
+			DAILY_LIMIT,
+			CURRENCY
+		from account
+		where
+			USER_ID = #{userId}
+	</select>
+	<select id="queryByAccountId" resultMap="BASE" parameterType="java.lang.Long">
+		select
+			USER_ID,
+			ACCOUNT_ID,
+			ACCOUNT_NUMBER,
+			AVAILABLE,
+			DAILY_LIMIT,
+			CURRENCY
+		from account
+		where
+			ACCOUNT_ID = #{accountId}
+	</select>
+	<select id="queryByAccountNumber" resultMap="BASE" parameterType="java.lang.String">
+		select
+			USER_ID,
+			ACCOUNT_ID,
+			ACCOUNT_NUMBER,
+			AVAILABLE,
+			DAILY_LIMIT,
+			CURRENCY
+		from account
+		where
+			ACCOUNT_NUMBER = #{accountNumber}
+	</select>
+</mapper>

@@ -1,0 +1,13 @@
+{
+  "hints": [{
+    "name": "licon.animal.animal-type",
+    "values": [{
+      "value": "cat"
+    },
+      {"value": "dog"}
+    ],
+    "providers": [{
+      "name": "any"
+    }]
+  }]
+}
