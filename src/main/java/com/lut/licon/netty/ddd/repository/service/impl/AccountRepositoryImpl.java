@@ -21,10 +21,9 @@ public class AccountRepositoryImpl implements AccountRepository {
 
 	private final AccountMapper accountMapper;
 
-	private final AccountBuilder accountBuilder;
+	private final AccountBuilder accountBuilder = AccountBuilder.INSTANCE;
 
-	public AccountRepositoryImpl(AccountBuilder accountBuilder, AccountMapper accountMapper) {
-		this.accountBuilder = accountBuilder;
+	public AccountRepositoryImpl(AccountMapper accountMapper) {
 		this.accountMapper = accountMapper;
 	}
 

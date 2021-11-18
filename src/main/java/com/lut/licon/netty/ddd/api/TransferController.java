@@ -26,14 +26,9 @@ public class TransferController {
 	}
 
 	@PostMapping("/bank/transfer")
-	public ResultData<Boolean> transfer(@RequestBody @Validated(TransferGroup.class) TransferCommand transferCommand){
+	public ResultData<Boolean> transfer(@RequestBody TransferCommand transferCommand)throws Exception{
 		ResultData<Boolean> resultData;
-		try {
-			resultData = bankService.bankTransferBusiness(transferCommand);
-		}catch (Exception e) {
-			log.info(e.getMessage());
-			resultData = ResultData.fail();
-		}
+		resultData = bankService.bankTransferBusiness(transferCommand);
 		return resultData;
 	}
 }

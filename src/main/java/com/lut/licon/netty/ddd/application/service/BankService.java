@@ -1,9 +1,10 @@
 package com.lut.licon.netty.ddd.application.service;
 
-import java.math.BigDecimal;
 
+import javax.validation.Valid;
 import com.lut.licon.netty.ddd.application.dto.TransferCommand;
 import com.lut.licon.netty.ddd.common.ResultData;
+
 
 /**
  * Describe:
@@ -20,5 +21,5 @@ public interface BankService {
 	 * @author Licon
 	 * @date 2021/11/15 16:13
 	 */
-	ResultData<Boolean> bankTransferBusiness(TransferCommand transferCommand)throws Exception;
+	ResultData<Boolean> bankTransferBusiness(@Valid TransferCommand transferCommand)throws Exception;
 }

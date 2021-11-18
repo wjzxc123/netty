@@ -1,13 +1,11 @@
 package com.lut.licon.netty.ddd.application.service.impl;
 
-import java.math.BigDecimal;
 import java.util.Currency;
-
 import javax.validation.Valid;
-
 import com.lut.licon.netty.ddd.application.dto.TransferCommand;
 import com.lut.licon.netty.ddd.application.service.BankService;
 import com.lut.licon.netty.ddd.common.ResultData;
+import com.lut.licon.netty.ddd.common.group.TransferGroup;
 import com.lut.licon.netty.ddd.domian.entity.Account;
 import com.lut.licon.netty.ddd.domian.service.AccountTransferService;
 import com.lut.licon.netty.ddd.external.service.ExchangeRateService;
@@ -16,9 +14,9 @@ import com.lut.licon.netty.ddd.types.AccountNumber;
 import com.lut.licon.netty.ddd.types.ExchangeRate;
 import com.lut.licon.netty.ddd.types.Money;
 import com.lut.licon.netty.ddd.types.UserId;
-
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.validation.annotation.Validated;
 
 /**
  * Describe:
@@ -27,6 +25,7 @@ import org.springframework.transaction.annotation.Transactional;
  * @date 2021/11/1 10:21
  */
 @Service
+@Validated
 public class BankServiceImpl implements BankService {
 	private final ExchangeRateService exchangeRateService;
 
@@ -42,7 +41,8 @@ public class BankServiceImpl implements BankService {
 
 	@Override
 	@Transactional(rollbackFor = RuntimeException.class)
-	public ResultData<Boolean> bankTransferBusiness(TransferCommand transferCommand) throws Exception {
+	@Validated(TransferGroup.class)
+	public ResultData<Boolean> bankTransferBusiness(@Valid TransferCommand transferCommand) throws Exception {
 		//查找源账户
 		Account sourceAccount = accountRepository.find(new UserId(transferCommand.getUserId()));
 		//查找目标账户

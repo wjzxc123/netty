@@ -1,7 +1,6 @@
 licon:
   animal:
     animal-type: cat
-
 spring:
 #  kafka:
 #    bootstrap-servers: 127.0.0.1:9092
@@ -99,8 +98,8 @@ spring:
             # 线程优先级
             threadPriority: 5
             threadsInheritContextClassLoaderOfInitializingThread: true
+  profiles:
+    active: pro
 
 mybatis:
   mapper-locations: classpath:com.lut.licon.netty/*.xml
-server:
-  port: 8080

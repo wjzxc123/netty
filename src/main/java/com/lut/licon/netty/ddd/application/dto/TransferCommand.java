@@ -8,6 +8,7 @@ import javax.validation.constraints.NotNull;
 import com.lut.licon.netty.ddd.common.CurrencyValid;
 import com.lut.licon.netty.ddd.common.group.TransferGroup;
 import com.lut.licon.netty.ddd.common.group.UndoGroup;
+import com.lut.licon.netty.ddd.standard.CommandBase;
 import lombok.Data;
 
 /**
@@ -17,7 +18,7 @@ import lombok.Data;
  * @date 2021/11/5 16:26
  */
 @Data
-public class TransferCommand {
+public class TransferCommand extends CommandBase {
 	@NotNull(message = "用户id不能为空",groups = TransferGroup.class)
 	Long userId;
 

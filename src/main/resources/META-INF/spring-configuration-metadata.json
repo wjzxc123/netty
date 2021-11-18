@@ -1,0 +1,26 @@
+{"groups": [
+  {
+    "name": "licon.animal",
+    "type": "java.lang.String"
+  }
+],"properties": [
+  {
+    "name": "licon.animal.animal-type",
+    "type": "java.lang.String",
+    "sourceType": "com.lut.licon.netty.config.AnimalConfig"
+  }
+],"hints": [
+  {
+    "name": "licon.animal.animal-type",
+    "values": [
+      {
+        "value": "cat",
+        "description": "cat."
+      },
+      {
+        "value": "dog",
+        "description": "dog."
+      }
+    ]
+  }
+]}

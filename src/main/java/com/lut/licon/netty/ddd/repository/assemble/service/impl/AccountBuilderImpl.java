@@ -18,7 +18,7 @@ import org.springframework.stereotype.Component;
  * @author Licon
  * @date 2021/10/29 15:49
  */
-@Component
+/*@Component
 public class AccountBuilderImpl implements AccountBuilder {
 	@Override
 	public Account toAccount(AccountPO accountPo)  throws Exception{
@@ -42,4 +42,4 @@ public class AccountBuilderImpl implements AccountBuilder {
 		accountPo.setCurrency(account.getCurrency().getCurrencyCode());
 		return accountPo;
 	}
-}
+}*/
