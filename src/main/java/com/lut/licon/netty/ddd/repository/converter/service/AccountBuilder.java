@@ -1,8 +1,8 @@
-package com.lut.licon.netty.ddd.repository.assemble.service;
+package com.lut.licon.netty.ddd.repository.converter.service;
 
 import java.util.Currency;
 import com.lut.licon.netty.ddd.domian.entity.Account;
-import com.lut.licon.netty.ddd.persistence.po.AccountPO;
+import com.lut.licon.netty.ddd.persistence.po.AccountDO;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
@@ -19,9 +19,9 @@ public interface AccountBuilder {
 	AccountBuilder INSTANCE = Mappers.getMapper(AccountBuilder.class);
 	/***
 	 *AccountPO转换为Account
-	 * @param accountPo
+	 * @param accountDo
 	 * @return {@link Account}
-	 * @throws Exception
+	 * @throws RuntimeException
 	 * @author Licon
 	 * @date 2021/11/15 16:08
 	 */
@@ -34,7 +34,7 @@ public interface AccountBuilder {
 	@Mapping(target = "dailyLimit.amount",source = "dailyLimit")
 	@Mapping(target = "dailyLimit.currency",source = "currency")
 	@Mapping(target = "currency",source = "currency")
-	Account toAccount(AccountPO accountPo) throws Exception;
+	Account toAccount(AccountDO accountDo) throws RuntimeException;
 
 	default Currency toCurrency(String currency){
 		return Currency.getInstance(currency);
@@ -45,7 +45,7 @@ public interface AccountBuilder {
 	 *
 	 * @InheritInverseConfiguration 可以逆向转换
 	 * @param account
-	 * @return {@link AccountPO}
+	 * @return {@link AccountDO}
 	 * @throws Exception
 	 * @author Licon
 	 * @date 2021/11/15 16:09
@@ -57,5 +57,5 @@ public interface AccountBuilder {
 	@Mapping(target = "dailyLimit",source = "dailyLimit.amount")
 	@Mapping(target = "currency",expression = "java(account.getCurrency().getCurrencyCode())")*/
 	@InheritInverseConfiguration
-	AccountPO fromAccount(Account account) throws Exception;
+	AccountDO fromAccount(Account account) throws Exception;
 }

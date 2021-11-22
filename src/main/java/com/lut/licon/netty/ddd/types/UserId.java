@@ -1,5 +1,6 @@
 package com.lut.licon.netty.ddd.types;
 
+import com.lut.licon.netty.ddd.domian.repository.Identifier;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -11,6 +12,6 @@ import lombok.Data;
  */
 @Data
 @AllArgsConstructor
-public class UserId {
+public class UserId implements Identifier {
 	private Long userId;
 }

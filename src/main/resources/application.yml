@@ -60,9 +60,10 @@ spring:
 #      type: batch
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/domian?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=CTT
     username: root
     password: root
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://127.0.0.1:3306/domian?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=CTT
   quartz:
     # 将任务等保存化到数据库
     job-store-type: jdbc
@@ -99,7 +100,20 @@ spring:
             threadPriority: 5
             threadsInheritContextClassLoaderOfInitializingThread: true
   profiles:
-    active: pro
+    active: dev
 
 mybatis:
   mapper-locations: classpath:com.lut.licon.netty/*.xml
+
+pagehelper:
+  params: pageNum=page;pageSize=pageSize;
+  helper-dialect: mysql
+  auto-dialect: true
+  supportMethodsArguments: true
+
+logging:
+  level:
+    com:
+      lut:
+        licon:
+          netty: debug

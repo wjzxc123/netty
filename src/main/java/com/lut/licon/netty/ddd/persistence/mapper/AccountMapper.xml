@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.lut.licon.netty.ddd.persistence.mapper.AccountMapper">
-	<resultMap id="BASE" type="com.lut.licon.netty.ddd.persistence.po.AccountPO">
+	<resultMap id="BASE" type="com.lut.licon.netty.ddd.persistence.po.AccountDO">
 		<result column="USER_ID" property="userId"/>
 		<result column="ACCOUNT_ID" property="accountId"/>
 		<result column="ACCOUNT_NUMBER" property="accountNumber"/>
@@ -10,11 +10,11 @@
 		<result column="CURRENCY" property="currency"/>
 	</resultMap>
 
-	<insert id="insert" parameterType="com.lut.licon.netty.ddd.persistence.po.AccountPO" >
+	<insert id="insert" parameterType="com.lut.licon.netty.ddd.persistence.po.AccountDO" >
 		insert into account(`USER_ID`,`ACCOUNT_ID`,`ACCOUNT_NUMBER`,`AVAILABLE`,`DAILY_LIMIT`,`CURRENCY`)
 					values(#{userId},#{accountId},#{accountNumber},#{available},#{dailyLimit},#{currency})
 	</insert>
-	<update id="update" parameterType="com.lut.licon.netty.ddd.persistence.po.AccountPO">
+	<update id="update" parameterType="com.lut.licon.netty.ddd.persistence.po.AccountDO">
 		update account
 		<trim prefix="set" suffixOverrides=",">
 			<if test="accountId != null">ACCOUNT_ID = #{accountId},</if>
@@ -61,5 +61,22 @@
 		from account
 		where
 			ACCOUNT_NUMBER = #{accountNumber}
+	</select>
+
+	<delete id="delete">
+		delete
+			from account
+		where USER_ID = #{userId}
+	</delete>
+
+	<select id="queryPaged" resultMap="BASE">
+		select
+			USER_ID,
+			ACCOUNT_ID,
+			ACCOUNT_NUMBER,
+			AVAILABLE,
+			DAILY_LIMIT,
+			CURRENCY
+		from account
 	</select>
 </mapper>

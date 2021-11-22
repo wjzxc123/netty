@@ -1,8 +1,10 @@
 package com.lut.licon.netty.ddd.persistence.mapper;
 
-import com.lut.licon.netty.ddd.persistence.po.AccountPO;
-import org.apache.ibatis.annotations.Mapper;
+import java.util.List;
 
+import com.lut.licon.netty.ddd.domian.ceq.QueryAccount;
+import com.lut.licon.netty.ddd.persistence.po.AccountDO;
+import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Component;
 
 
@@ -23,7 +25,7 @@ public interface AccountMapper {
 	 * @author Licon
 	 * @date 2021/11/15 16:09
 	 */
-	int insert(AccountPO account);
+	int insert(AccountDO account);
 
 	/***
 	 *更新
@@ -33,35 +35,57 @@ public interface AccountMapper {
 	 * @author Licon
 	 * @date 2021/11/15 16:09
 	 */
-	int update(AccountPO account);
+	int update(AccountDO account);
+
+
+	/***
+	 *分页查询账户
+	 * @param queryAccount
+	 * @return {@link List< AccountDO>}
+	 * @throws
+	 * @author Licon
+	 * @date 2021/11/22 9:54
+	 */
+	List<AccountDO> queryPaged(QueryAccount queryAccount);
 
 	/***
 	 *根据UserId查询账户
 	 * @param userId
-	 * @return {@link AccountPO}
+	 * @return {@link AccountDO}
 	 * @throws
 	 * @author Licon
 	 * @date 2021/11/15 16:10
 	 */
-	AccountPO queryByUserId(Long userId);
+	AccountDO queryByUserId(Long userId);
 
 	/***
 	 *根据accountId查询账户
 	 * @param accountId
-	 * @return {@link AccountPO}
+	 * @return {@link AccountDO}
 	 * @throws
 	 * @author Licon
 	 * @date 2021/11/15 16:10
 	 */
-	AccountPO queryByAccountId(Long accountId);
+	AccountDO queryByAccountId(Long accountId);
 
 	/***
 	 *根据 accountNumber 查询账户
 	 * @param accountNumber
-	 * @return {@link AccountPO}
+	 * @return {@link AccountDO}
 	 * @throws
 	 * @author Licon
 	 * @date 2021/11/15 16:10
 	 */
-	AccountPO queryByAccountNumber(String accountNumber);
+	AccountDO queryByAccountNumber(String accountNumber);
+
+
+	/***
+	 * 删除账户
+	 * @param accountDO
+	 * @return
+	 * @throws
+	 * @author Licon
+	 * @date 2021/11/22 9:48
+	 */
+	void delete(AccountDO accountDO);
 }

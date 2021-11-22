@@ -25,6 +25,7 @@ public class ResultData<T> {
 		return new ResultData<>(true);
 	}
 
+
 	public static ResultData<Boolean> fail(){
 		return new ResultData<>(false);
 	}

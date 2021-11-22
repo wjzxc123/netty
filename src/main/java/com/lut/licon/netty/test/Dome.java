@@ -1,11 +1,9 @@
 package com.lut.licon.netty.test;
 
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.UUID;
-
-import com.google.common.collect.Maps;
 
 /**
  * Describe:
@@ -20,7 +18,7 @@ public class Dome {
 		skuStr = skuStr.replaceAll("\n", "");
 		skuStr = skuStr.replaceAll("商品", "");
 		skuStr = skuStr.replaceAll(",", "，");
-		Map<String, Object> so = Maps.newHashMap();
+		Map<String, Object> so = new HashMap<>();
 		String[] skuArray = skuStr.split("，");
 		if (skuArray.length != 0 && skuArray[0].length() > 10) {
 			skuArray = skuStr.split(",");

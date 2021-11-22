@@ -13,7 +13,7 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class AccountPO {
+public class AccountDO {
 	private Long userId;
 	private Long accountId;
 	private String accountNumber;

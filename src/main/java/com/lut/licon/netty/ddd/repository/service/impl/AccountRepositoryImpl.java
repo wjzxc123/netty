@@ -1,10 +1,20 @@
 package com.lut.licon.netty.ddd.repository.service.impl;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
+import javax.validation.constraints.NotNull;
+
+
+import com.lut.licon.netty.ddd.domian.ceq.QueryAccount;
 import com.lut.licon.netty.ddd.domian.entity.Account;
+import com.lut.licon.netty.ddd.domian.repository.AccountRepository;
+import com.lut.licon.netty.ddd.domian.repository.Aggregate;
+import com.lut.licon.netty.ddd.exception.AttachException;
+import com.lut.licon.netty.ddd.exception.DetachException;
 import com.lut.licon.netty.ddd.persistence.mapper.AccountMapper;
-import com.lut.licon.netty.ddd.persistence.po.AccountPO;
-import com.lut.licon.netty.ddd.repository.assemble.service.AccountBuilder;
-import com.lut.licon.netty.ddd.repository.service.AccountRepository;
+import com.lut.licon.netty.ddd.persistence.po.AccountDO;
+import com.lut.licon.netty.ddd.repository.converter.service.AccountBuilder;
 import com.lut.licon.netty.ddd.types.AccountId;
 import com.lut.licon.netty.ddd.types.AccountNumber;
 import com.lut.licon.netty.ddd.types.UserId;
@@ -14,7 +24,7 @@ import org.springframework.stereotype.Repository;
  * Describe:
  *
  * @author Licon
- * @date 2021/10/29 15:48
+ * @date 2021/11/19 10:50
  */
 @Repository
 public class AccountRepositoryImpl implements AccountRepository {
@@ -28,35 +38,62 @@ public class AccountRepositoryImpl implements AccountRepository {
 	}
 
 	@Override
-	public Account find(UserId userId) throws Exception{
-		AccountPO accountPo = accountMapper.queryByUserId(userId.getUserId());
-		return accountBuilder.toAccount(accountPo);
+	public Long countAccount(QueryAccount queryAccount) throws Exception {
+		return null;
 	}
 
 	@Override
-	public Account find(AccountNumber accountNumber) throws Exception{
-		AccountPO accountPo = accountMapper.queryByAccountNumber(accountNumber.getAccountNumber());
-		return accountBuilder.toAccount(accountPo);
+	public List<Account> query(QueryAccount queryAccount) throws Exception {
+		return accountMapper.queryPaged(queryAccount)
+				.stream().map(accountBuilder::toAccount).collect(Collectors.toList());
 	}
 
 	@Override
-	public Account find(AccountId accountId) throws Exception{
-		AccountPO accountPo = accountMapper.queryByAccountId(accountId.getAccountId());
-		return accountBuilder.toAccount(accountPo);
+	public Account findInAccountNumber(AccountNumber accountNumber) throws Exception {
+		AccountDO accountDo = accountMapper.queryByAccountNumber(accountNumber.getAccountNumber());
+		return accountBuilder.toAccount(accountDo);
 	}
 
 	@Override
-	public Account save(Account account) throws Exception{
+	public Account findInAccountId(AccountId accountId) throws Exception {
+		AccountDO accountDo = accountMapper.queryByAccountId(accountId.getAccountId());
+		return accountBuilder.toAccount(accountDo);
+	}
+
+	@Override
+	public void attach(@NotNull Account aggregate) throws AttachException {
+
+	}
+
+	@Override
+	public void detach(@NotNull Account aggregate) throws DetachException {
+
+	}
+
+	@Override
+	public Account find(@NotNull UserId userId) throws Exception {
+		AccountDO accountDo = accountMapper.queryByUserId(userId.getUserId());
+		return accountBuilder.toAccount(accountDo);
+	}
+
+	@Override
+	public void remove(@NotNull Account aggregate) throws Exception {
+		accountMapper.delete(accountBuilder.fromAccount(aggregate));
+	}
+
+	@Override
+	public Aggregate<UserId> save(@NotNull Account aggregate) throws Exception {
 		int result = 0;
-		if (account.getAccountId() == null){
-			result = accountMapper.insert(accountBuilder.fromAccount(account));
+		if (aggregate.getAccountId() == null){
+			result = accountMapper.insert(accountBuilder.fromAccount(aggregate));
 		}else {
-			result = accountMapper.update(accountBuilder.fromAccount(account));
+			result = accountMapper.update(accountBuilder.fromAccount(aggregate));
 		}
 
 		if (result == 0){
 			throw new RuntimeException("保存异常");
 		}
-		return account;
+		return aggregate;
 	}
+
 }

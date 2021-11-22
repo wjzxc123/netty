@@ -2,6 +2,7 @@ package com.lut.licon.netty.ddd.domian.entity;
 
 import java.util.Currency;
 
+import com.lut.licon.netty.ddd.domian.repository.Aggregate;
 import com.lut.licon.netty.ddd.exception.DailyLimitException;
 import com.lut.licon.netty.ddd.exception.InsufficientFundsException;
 import com.lut.licon.netty.ddd.exception.InvalidCurrencyException;
@@ -21,7 +22,7 @@ import lombok.Setter;
  */
 @Setter
 @Getter
-public class Account {
+public class Account implements Aggregate<UserId> {
 	private UserId userId;
 	private AccountId accountId;
 	private AccountNumber accountNumber;
@@ -63,5 +64,10 @@ public class Account {
 			throw new DailyLimitException("账户已超过日限额");
 		}
 		this.available = this.available.subtract(money);
+	}
+
+	@Override
+	public UserId getId() {
+		return this.userId;
 	}
 }

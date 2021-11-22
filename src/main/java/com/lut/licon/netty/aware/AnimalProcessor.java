@@ -29,10 +29,10 @@ public class AnimalProcessor implements BeanPostProcessor, ApplicationContextAwa
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
-        if (bean instanceof AnimalAware){
+        /*if (bean instanceof AnimalAware){
             Assert.notNull(animalConfig.getAnimalType(),"type is not null");
             ((AnimalAware)bean).setAnimal(applicationContext.getBean(animalConfig.getAnimalType(), Animal.class));
-        }
+        }*/
         return bean;
     }
 

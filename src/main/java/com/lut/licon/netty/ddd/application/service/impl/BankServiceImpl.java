@@ -7,9 +7,9 @@ import com.lut.licon.netty.ddd.application.service.BankService;
 import com.lut.licon.netty.ddd.common.ResultData;
 import com.lut.licon.netty.ddd.common.group.TransferGroup;
 import com.lut.licon.netty.ddd.domian.entity.Account;
+import com.lut.licon.netty.ddd.domian.repository.AccountRepository;
 import com.lut.licon.netty.ddd.domian.service.AccountTransferService;
 import com.lut.licon.netty.ddd.external.service.ExchangeRateService;
-import com.lut.licon.netty.ddd.repository.service.AccountRepository;
 import com.lut.licon.netty.ddd.types.AccountNumber;
 import com.lut.licon.netty.ddd.types.ExchangeRate;
 import com.lut.licon.netty.ddd.types.Money;
@@ -46,7 +46,7 @@ public class BankServiceImpl implements BankService {
 		//查找源账户
 		Account sourceAccount = accountRepository.find(new UserId(transferCommand.getUserId()));
 		//查找目标账户
-		Account targetAccount = accountRepository.find(new AccountNumber(transferCommand.getAccountNumber()));
+		Account targetAccount = accountRepository.findInAccountNumber(new AccountNumber(transferCommand.getAccountNumber()));
 		//获取汇率
 		ExchangeRate rate = exchangeRateService.getRate(sourceAccount.getCurrency(), targetAccount.getCurrency());
 		//转账操作
