@@ -101,6 +101,9 @@ spring:
             threadsInheritContextClassLoaderOfInitializingThread: true
   profiles:
     active: dev
+  output:
+    ansi:
+      enabled: always
 
 mybatis:
   mapper-locations: classpath:com.lut.licon.netty/*.xml
@@ -117,3 +120,4 @@ logging:
       lut:
         licon:
           netty: debug
+  config: classpath:logback-spring.xml

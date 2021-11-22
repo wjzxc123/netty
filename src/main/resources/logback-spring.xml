@@ -70,27 +70,10 @@
 			<appender-ref ref="CONSOLE"/>
 			<appender-ref ref="FILE"/>
 		</logger>
-		<logger name="com.netflix" level="INFO" additivity="false">
-			<appender-ref ref="CONSOLE"/>
-			<appender-ref ref="FILE"/>
-		</logger>
-		<logger name="com.pro.test" level="DEBUG" additivity="false">
-			<appender-ref ref="CONSOLE"/>
-			<appender-ref ref="FILE"/>
-		</logger>
-		<logger name="java.sql" level="DEBUG" additivity="false">
-			<appender-ref ref="CONSOLE"/>
-			<appender-ref ref="FILE"/>
-		</logger>
-		<!--项目包的路径-->
-		<logger name="com.pro" level="DEBUG,INFO" additivity="false">
-			<appender-ref ref="CONSOLE"/>
-			<appender-ref ref="FILE"/>
-		</logger>
 	</springProfile>
 
 	<root level="INFO">
 		<appender-ref ref="CONSOLE" />
-		<appender-ref ref="FILE" />
+		<!--<appender-ref ref="FILE" />-->
 	</root>
 </configuration>

@@ -2,8 +2,10 @@ package com.lut.licon.netty.ddd.persistence.po;
 
 import java.math.BigDecimal;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 /**
  * Describe:
@@ -13,6 +15,8 @@ import lombok.Setter;
  */
 @Getter
 @Setter
+@ToString
+@TableName("account")
 public class AccountDO {
 	private Long userId;
 	private Long accountId;

@@ -13,6 +13,7 @@ import com.lut.licon.netty.ddd.types.Money;
 import com.lut.licon.netty.ddd.types.UserId;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 /**
  * Describe:
@@ -22,6 +23,7 @@ import lombok.Setter;
  */
 @Setter
 @Getter
+@ToString
 public class Account implements Aggregate<UserId> {
 	private UserId userId;
 	private AccountId accountId;

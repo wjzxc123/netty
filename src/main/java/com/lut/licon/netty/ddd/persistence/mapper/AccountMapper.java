@@ -2,6 +2,7 @@ package com.lut.licon.netty.ddd.persistence.mapper;
 
 import java.util.List;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.lut.licon.netty.ddd.domian.ceq.QueryAccount;
 import com.lut.licon.netty.ddd.persistence.po.AccountDO;
 import org.apache.ibatis.annotations.Mapper;
@@ -16,7 +17,7 @@ import org.springframework.stereotype.Component;
  */
 @Mapper
 @Component
-public interface AccountMapper {
+public interface AccountMapper extends BaseMapper<AccountDO> {
 	/***
 	 *插入
 	 * @param account
