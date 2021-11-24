@@ -1,0 +1,218 @@
+2021-11-23 10:06:02.503  INFO 24984 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 10:06:04.997  INFO 24984 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:06:06.500  INFO 24984 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 10:06:06.516  INFO 24984 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 10:06:06.581  INFO 24984 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 10:06:06.644  INFO 24984 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 10:06:06.725  INFO 24984 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 10:06:06.726  INFO 24984 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637571721632"'s failed in-progress jobs.
+2021-11-23 10:06:07.437  INFO 24984 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 10:06:07.437  INFO 24984 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 10:06:07.481  INFO 24984 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:06:27.821  INFO 20788 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 10:06:30.237  INFO 20788 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:06:31.589  INFO 20788 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 10:06:31.591  INFO 20788 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 10:06:31.640  INFO 20788 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 10:06:31.698  INFO 20788 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 10:06:32.244  INFO 20788 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 10:06:32.245  INFO 20788 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 10:06:32.568  INFO 20788 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:12:27.769  INFO 13280 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 10:12:29.827  INFO 13280 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:12:31.166  INFO 13280 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 10:12:31.170  INFO 13280 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 10:12:31.227  INFO 13280 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 10:12:31.304  INFO 13280 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 10:12:31.398  INFO 13280 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 2 failed or restarted instances.
+2021-11-23 10:12:31.399  INFO 13280 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637633166474"'s failed in-progress jobs.
+2021-11-23 10:12:31.403  INFO 13280 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637633191560"'s failed in-progress jobs.
+2021-11-23 10:12:47.910  INFO 13280 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 10:12:47.910  INFO 13280 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 10:12:48.386  INFO 13280 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:21:59.176  INFO 12196 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 10:22:02.679  INFO 12196 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:22:04.567  INFO 12196 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 10:22:04.572  INFO 12196 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 10:22:04.632  INFO 12196 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 10:22:04.720  INFO 12196 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 10:22:04.858  INFO 12196 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 10:22:04.859  INFO 12196 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637633551137"'s failed in-progress jobs.
+2021-11-23 10:22:05.304  INFO 12196 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 10:22:05.305  INFO 12196 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 10:22:05.538  INFO 12196 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:22:48.100  INFO 5804 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 10:22:50.843  INFO 5804 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:22:52.645  INFO 5804 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 10:22:52.650  INFO 5804 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 10:22:52.709  INFO 5804 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 10:22:52.773  INFO 5804 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 10:22:52.865  INFO 5804 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 10:22:52.865  INFO 5804 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637634124528"'s failed in-progress jobs.
+2021-11-23 10:23:04.254  INFO 5804 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 10:23:04.254  INFO 5804 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 10:23:04.786  INFO 5804 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:23:33.037  INFO 6692 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 10:23:35.484  INFO 6692 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:23:37.278  INFO 6692 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 10:23:37.282  INFO 6692 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 10:23:37.352  INFO 6692 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 10:23:37.447  INFO 6692 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 10:23:37.576  INFO 6692 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 10:23:37.576  INFO 6692 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637634172610"'s failed in-progress jobs.
+2021-11-23 10:23:50.562  INFO 6692 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 10:23:50.562  INFO 6692 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 10:23:51.043  INFO 6692 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:25:52.076  INFO 7500 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 10:25:54.600  INFO 7500 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:25:56.266  INFO 7500 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 10:25:56.270  INFO 7500 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 10:25:56.333  INFO 7500 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 10:25:56.421  INFO 7500 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 10:25:56.527  INFO 7500 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 10:25:56.528  INFO 7500 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637634217243"'s failed in-progress jobs.
+2021-11-23 10:26:11.174  INFO 7500 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 10:26:11.175  INFO 7500 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 10:26:11.647  INFO 7500 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:26:32.836  INFO 26860 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 10:26:34.845  INFO 26860 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:26:36.196  INFO 26860 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 10:26:36.202  INFO 26860 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 10:26:36.259  INFO 26860 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 10:26:36.329  INFO 26860 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 10:26:36.407  INFO 26860 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 10:26:36.408  INFO 26860 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637634356229"'s failed in-progress jobs.
+2021-11-23 10:26:36.941  INFO 26860 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 10:26:36.941  INFO 26860 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 10:26:37.173  INFO 26860 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:30:12.865  INFO 14544 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 10:30:15.113  INFO 14544 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 10:30:16.504  INFO 14544 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 10:30:16.508  INFO 14544 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 10:30:16.561  INFO 14544 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 10:30:16.631  INFO 14544 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 10:30:16.699  INFO 14544 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 10:30:16.699  INFO 14544 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637634396162"'s failed in-progress jobs.
+2021-11-23 10:30:24.682  INFO 14544 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 10:30:24.682  INFO 14544 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 10:30:25.135  INFO 14544 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 13:41:53.094  INFO 9628 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 13:41:56.435  INFO 9628 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 13:41:57.870  INFO 9628 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 13:41:57.877  INFO 9628 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 13:41:57.922  INFO 9628 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 13:41:57.980  INFO 9628 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 13:41:58.053  INFO 9628 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 13:41:58.054  INFO 9628 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637634616477"'s failed in-progress jobs.
+2021-11-23 13:41:58.461  INFO 9628 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 13:41:58.462  INFO 9628 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 13:41:58.851  INFO 9628 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 13:44:16.432  INFO 17188 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 13:44:19.422  INFO 17188 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 13:44:21.088  INFO 17188 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 13:44:21.091  INFO 17188 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 13:44:21.158  INFO 17188 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 13:44:21.225  INFO 17188 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 13:44:21.297  INFO 17188 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 13:44:21.298  INFO 17188 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637646117845"'s failed in-progress jobs.
+2021-11-23 13:44:22.521  INFO 17188 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 13:44:22.522  INFO 17188 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 13:44:22.568  INFO 17188 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 13:45:14.182  INFO 19912 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 13:45:16.751  INFO 19912 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 13:45:21.094  INFO 19912 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 13:45:21.097  INFO 19912 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 13:45:21.154  INFO 19912 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 13:45:21.259  INFO 19912 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 13:45:21.366  INFO 19912 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 13:45:21.366  INFO 19912 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637646261058"'s failed in-progress jobs.
+2021-11-23 13:45:22.288  INFO 19912 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 13:45:22.289  INFO 19912 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 13:45:22.568  INFO 19912 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 13:45:23.088  INFO 19556 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 13:45:27.400  INFO 19556 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 13:45:29.636  INFO 19556 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 13:45:29.642  INFO 19556 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 13:45:29.705  INFO 19556 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 13:45:29.774  INFO 19556 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 13:45:30.946  INFO 19556 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 13:45:30.947  INFO 19556 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 13:45:31.111  INFO 19556 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 14:19:09.655  INFO 28656 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 14:19:11.660  INFO 28656 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 14:19:13.217  INFO 28656 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 14:19:13.220  INFO 28656 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 14:19:13.282  INFO 28656 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 14:19:13.348  INFO 28656 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 14:19:13.432  INFO 28656 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 2 failed or restarted instances.
+2021-11-23 14:19:13.432  INFO 28656 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637646321060"'s failed in-progress jobs.
+2021-11-23 14:19:13.436  INFO 28656 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637646329600"'s failed in-progress jobs.
+2021-11-23 14:19:14.326  INFO 28656 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 14:19:14.326  INFO 28656 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 14:19:14.698  INFO 28656 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 14:33:16.438  INFO 11304 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 14:33:18.383  INFO 11304 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 14:33:19.942  INFO 11304 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 14:33:19.945  INFO 11304 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 14:33:19.996  INFO 11304 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 14:33:20.060  INFO 11304 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 14:33:20.139  INFO 11304 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 14:33:20.139  INFO 11304 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637648353191"'s failed in-progress jobs.
+2021-11-23 14:33:20.978  INFO 11304 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 14:33:20.979  INFO 11304 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 14:33:21.420  INFO 11304 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 14:38:15.407  INFO 27280 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 14:38:17.410  INFO 27280 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 14:38:18.968  INFO 27280 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 14:38:18.973  INFO 27280 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 14:38:19.025  INFO 27280 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 14:38:19.083  INFO 27280 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 14:38:19.161  INFO 27280 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 14:38:19.162  INFO 27280 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637649199914"'s failed in-progress jobs.
+2021-11-23 14:38:20.102  INFO 27280 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 14:38:20.103  INFO 27280 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 14:38:20.441  INFO 27280 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 14:42:39.048  INFO 31212 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 14:42:40.927  INFO 31212 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 14:42:42.293  INFO 31212 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 14:42:42.296  INFO 31212 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 14:42:42.335  INFO 31212 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 14:42:42.392  INFO 31212 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 14:42:42.460  INFO 31212 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 14:42:42.460  INFO 31212 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637649498933"'s failed in-progress jobs.
+2021-11-23 14:42:42.887  INFO 31212 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 14:42:42.887  INFO 31212 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 14:42:43.274  INFO 31212 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 14:52:25.224  INFO 28652 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 14:52:27.237  INFO 28652 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 14:52:28.876  INFO 28652 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 14:52:28.880  INFO 28652 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 14:52:28.942  INFO 28652 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 14:52:29.010  INFO 28652 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 14:52:29.100  INFO 28652 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 14:52:29.100  INFO 28652 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637649762264"'s failed in-progress jobs.
+2021-11-23 14:52:53.135  INFO 28652 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 14:52:53.137  INFO 28652 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 14:52:53.608  INFO 28652 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 15:03:01.203  INFO 17528 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 15:03:05.028  INFO 17528 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 15:03:06.888  INFO 17528 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 15:03:06.892  INFO 17528 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 15:03:06.951  INFO 17528 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 15:03:07.039  INFO 17528 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 15:03:07.112  INFO 17528 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 15:03:07.112  INFO 17528 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637650348849"'s failed in-progress jobs.
+2021-11-23 15:03:07.839  INFO 17528 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 15:03:07.840  INFO 17528 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 15:03:07.861  INFO 17528 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 15:03:57.460  INFO 6600 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-23 15:03:59.739  INFO 6600 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 15:04:01.801  INFO 6600 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-23 15:04:01.806  INFO 6600 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-23 15:04:01.867  INFO 6600 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-23 15:04:01.940  INFO 6600 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-23 15:04:02.017  INFO 6600 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-23 15:04:02.017  INFO 6600 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637650986854"'s failed in-progress jobs.
+2021-11-23 15:04:02.753  INFO 6600 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-23 15:04:02.754  INFO 6600 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-23 15:04:02.780  INFO 6600 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

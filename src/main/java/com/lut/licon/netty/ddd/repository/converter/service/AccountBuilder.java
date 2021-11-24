@@ -36,9 +36,12 @@ public interface AccountBuilder {
 	@Mapping(target = "currency",source = "currency")
 	Account toAccount(AccountDO accountDo) throws RuntimeException;
 
-	default Currency toCurrency(String currency){
+	/**
+	 * @since 1.3+ 添加了 java.lang.String ==> java.util.Currency
+	 */
+	/*default Currency toCurrency(String currency){
 		return Currency.getInstance(currency);
-	}
+	}*/
 
 	/***
 	 *Account转换为AccountPO

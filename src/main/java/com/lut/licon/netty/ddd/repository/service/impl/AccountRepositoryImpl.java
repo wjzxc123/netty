@@ -87,7 +87,7 @@ public class AccountRepositoryImpl implements AccountRepository {
 		if (aggregate.getAccountId() == null){
 			result = accountMapper.insert(accountBuilder.fromAccount(aggregate));
 		}else {
-			result = accountMapper.update(accountBuilder.fromAccount(aggregate));
+			result = accountMapper.updateById(accountBuilder.fromAccount(aggregate));
 		}
 
 		if (result == 0){

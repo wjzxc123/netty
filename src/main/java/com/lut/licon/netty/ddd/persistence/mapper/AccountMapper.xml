@@ -8,24 +8,9 @@
 		<result column="AVAILABLE" property="available"/>
 		<result column="DAILY_LIMIT" property="dailyLimit"/>
 		<result column="CURRENCY" property="currency"/>
+		<result column="VERSION" property="version"/>
 	</resultMap>
 
-	<insert id="insert" parameterType="com.lut.licon.netty.ddd.persistence.po.AccountDO" >
-		insert into account(`USER_ID`,`ACCOUNT_ID`,`ACCOUNT_NUMBER`,`AVAILABLE`,`DAILY_LIMIT`,`CURRENCY`)
-					values(#{userId},#{accountId},#{accountNumber},#{available},#{dailyLimit},#{currency})
-	</insert>
-	<update id="update" parameterType="com.lut.licon.netty.ddd.persistence.po.AccountDO">
-		update account
-		<trim prefix="set" suffixOverrides=",">
-			<if test="accountId != null">ACCOUNT_ID = #{accountId},</if>
-			<if test="accountNumber != null">ACCOUNT_NUMBER = #{accountNumber},</if>
-			<if test="available != null">AVAILABLE = #{available},</if>
-			<if test="dailyLimit != null">DAILY_LIMIT = #{dailyLimit},</if>
-			<if test="currency != null">CURRENCY = #{currency},</if>
-		</trim>
-		where
-			USER_ID = #{userId}
-	</update>
 	<select id="queryByUserId" resultMap="BASE" parameterType="java.lang.Long">
 		select
 			USER_ID,
@@ -33,7 +18,8 @@
 			ACCOUNT_NUMBER,
 			AVAILABLE,
 			DAILY_LIMIT,
-			CURRENCY
+			CURRENCY,
+			VERSION
 		from account
 		where
 			USER_ID = #{userId}
@@ -45,7 +31,8 @@
 			ACCOUNT_NUMBER,
 			AVAILABLE,
 			DAILY_LIMIT,
-			CURRENCY
+			CURRENCY,
+			VERSION
 		from account
 		where
 			ACCOUNT_ID = #{accountId}
@@ -57,7 +44,8 @@
 			ACCOUNT_NUMBER,
 			AVAILABLE,
 			DAILY_LIMIT,
-			CURRENCY
+			CURRENCY,
+			VERSION
 		from account
 		where
 			ACCOUNT_NUMBER = #{accountNumber}
@@ -76,7 +64,8 @@
 			ACCOUNT_NUMBER,
 			AVAILABLE,
 			DAILY_LIMIT,
-			CURRENCY
+			CURRENCY,
+			VERSION
 		from account
 	</select>
 </mapper>

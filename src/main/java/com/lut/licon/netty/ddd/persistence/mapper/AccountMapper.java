@@ -16,28 +16,7 @@ import org.springframework.stereotype.Component;
  * @date 2021/10/29 15:34
  */
 @Mapper
-@Component
 public interface AccountMapper extends BaseMapper<AccountDO> {
-	/***
-	 *插入
-	 * @param account
-	 * @return {@link int}
-	 * @throws
-	 * @author Licon
-	 * @date 2021/11/15 16:09
-	 */
-	int insert(AccountDO account);
-
-	/***
-	 *更新
-	 * @param account
-	 * @return {@link int}
-	 * @throws
-	 * @author Licon
-	 * @date 2021/11/15 16:09
-	 */
-	int update(AccountDO account);
-
 
 	/***
 	 *分页查询账户

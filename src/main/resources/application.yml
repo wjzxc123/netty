@@ -105,9 +105,6 @@ spring:
     ansi:
       enabled: always
 
-mybatis:
-  mapper-locations: classpath:com.lut.licon.netty/*.xml
-
 pagehelper:
   params: pageNum=page;pageSize=pageSize;
   helper-dialect: mysql
