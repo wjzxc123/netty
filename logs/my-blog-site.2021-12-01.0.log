@@ -1,0 +1,937 @@
+2021-12-01 08:58:46.157  INFO 9736 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 08:58:46.494  INFO 9736 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 08:58:47.274  INFO 9736 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3357 ms
+2021-12-01 08:59:19.812  INFO 9736 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12d33d7a, org.springframework.security.web.context.SecurityContextPersistenceFilter@542b27af, org.springframework.security.web.header.HeaderWriterFilter@50915d5, org.springframework.security.web.authentication.logout.LogoutFilter@56f4f385, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@36d7e8d2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ae97a58, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69c7fb94, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16bbb59c, org.springframework.security.web.session.SessionManagementFilter@65130cf2, org.springframework.security.web.access.ExceptionTranslationFilter@6c89c92e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19370af1]
+2021-12-01 08:59:19.822  INFO 9736 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21b75073, org.springframework.security.web.context.SecurityContextPersistenceFilter@68fec965, org.springframework.security.web.header.HeaderWriterFilter@1d4b0a07, org.springframework.security.web.authentication.logout.LogoutFilter@729eef5f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@47bae235, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7af5ce66, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f2bf80d, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@46c7e6c0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@318ca53a, org.springframework.security.web.session.SessionManagementFilter@17a89cb1, org.springframework.security.web.access.ExceptionTranslationFilter@486d1868, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bfaff23]
+2021-12-01 08:59:45.628  INFO 9736 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 08:59:45.799  INFO 9736 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 171 ms
+2021-12-01 08:59:45.800  INFO 9736 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 08:59:45.846  INFO 9736 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 46 ms
+2021-12-01 08:59:45.847  INFO 9736 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-12-01 08:59:45.848  INFO 9736 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 09:00:52.201  INFO 13088 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:00:52.448  INFO 13088 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:00:52.846  INFO 13088 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1982 ms
+2021-12-01 09:01:24.983  INFO 13088 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@118d7e0e, org.springframework.security.web.context.SecurityContextPersistenceFilter@58df431e, org.springframework.security.web.header.HeaderWriterFilter@365eaef, org.springframework.security.web.authentication.logout.LogoutFilter@47a72c32, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1611ce1c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4446e1d9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5cdf2c83, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39ff4421, org.springframework.security.web.session.SessionManagementFilter@9e2b199, org.springframework.security.web.access.ExceptionTranslationFilter@18f1260, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c663fda]
+2021-12-01 09:01:24.996  INFO 13088 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66ca8882, org.springframework.security.web.context.SecurityContextPersistenceFilter@35c69e6b, org.springframework.security.web.header.HeaderWriterFilter@6ceeb592, org.springframework.security.web.authentication.logout.LogoutFilter@2df40273, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@57cfb4d8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78e386a5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6138ee0e, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@6f28a07e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c0989f7, org.springframework.security.web.session.SessionManagementFilter@332fc35c, org.springframework.security.web.access.ExceptionTranslationFilter@7c07deff, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1fcef6f9]
+2021-12-01 09:01:39.365  INFO 13088 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 09:01:39.538  INFO 13088 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 173 ms
+2021-12-01 09:01:39.538  INFO 13088 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 09:01:39.586  INFO 13088 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 48 ms
+2021-12-01 09:01:39.586  INFO 13088 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-12-01 09:01:39.587  INFO 13088 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 09:02:36.576  INFO 340 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:02:36.789  INFO 340 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:02:37.127  INFO 340 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3040 ms
+2021-12-01 09:03:09.574  INFO 340 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3eb29382, org.springframework.security.web.context.SecurityContextPersistenceFilter@47184859, org.springframework.security.web.header.HeaderWriterFilter@2da3d7d3, org.springframework.security.web.authentication.logout.LogoutFilter@408708a1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1695f7cb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22781286, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28df2da8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@209baf91, org.springframework.security.web.session.SessionManagementFilter@1f832df0, org.springframework.security.web.access.ExceptionTranslationFilter@5f7dbdfa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@38a3c078]
+2021-12-01 09:03:09.586  INFO 340 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c32aa7e, org.springframework.security.web.context.SecurityContextPersistenceFilter@51f412e6, org.springframework.security.web.header.HeaderWriterFilter@68bef3df, org.springframework.security.web.authentication.logout.LogoutFilter@58e0f079, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4ac1544f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7234db3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@189c6683, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@45b37003, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c11ec9b, org.springframework.security.web.session.SessionManagementFilter@6aeb769d, org.springframework.security.web.access.ExceptionTranslationFilter@31e5d408, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ab87cb8]
+2021-12-01 09:03:30.388  INFO 340 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 09:03:30.568  INFO 340 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 180 ms
+2021-12-01 09:03:30.568  INFO 340 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 09:03:30.613  INFO 340 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 45 ms
+2021-12-01 09:03:30.614  INFO 340 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-12-01 09:03:30.615  INFO 340 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 09:03:59.575  INFO 14056 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:03:59.769  INFO 14056 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:04:00.159  INFO 14056 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2121 ms
+2021-12-01 09:04:34.194  INFO 14056 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2801ccb3, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f55aef7, org.springframework.security.web.header.HeaderWriterFilter@21139739, org.springframework.security.web.authentication.logout.LogoutFilter@54464330, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2a8eed58, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ffe7c42, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b0483f2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42102827, org.springframework.security.web.session.SessionManagementFilter@3c4940d2, org.springframework.security.web.access.ExceptionTranslationFilter@3681c285, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5eba0cc5]
+2021-12-01 09:04:34.205  INFO 14056 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b6098fd, org.springframework.security.web.context.SecurityContextPersistenceFilter@489e1887, org.springframework.security.web.header.HeaderWriterFilter@772db1d8, org.springframework.security.web.authentication.logout.LogoutFilter@25d6ae3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@555454c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7421213d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e98fd10, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@56d189d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ce5013a, org.springframework.security.web.session.SessionManagementFilter@7955b4d4, org.springframework.security.web.access.ExceptionTranslationFilter@188500e9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@74832504]
+2021-12-01 09:04:40.292  INFO 14056 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 09:04:40.473  INFO 14056 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 181 ms
+2021-12-01 09:04:40.473  INFO 14056 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 09:04:40.525  INFO 14056 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 52 ms
+2021-12-01 09:04:40.526  INFO 14056 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-12-01 09:04:40.527  INFO 14056 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 09:13:36.651  INFO 5628 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:13:36.921  INFO 5628 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:13:37.353  INFO 5628 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2368 ms
+2021-12-01 09:13:37.987  WARN 5628 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferController' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\api\TransferController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bankServiceImpl' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\application\service\impl\BankServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountRepositoryImpl' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\repository\service\impl\AccountRepositoryImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountMapper' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\persistence\mapper\AccountMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/lut/licon/netty/config/DatabaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+2021-12-01 09:13:38.008  INFO 5628 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-01 09:13:38.039 ERROR 5628 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferController' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\api\TransferController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bankServiceImpl' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\application\service\impl\BankServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountRepositoryImpl' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\repository\service\impl\AccountRepositoryImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountMapper' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\persistence\mapper\AccountMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/lut/licon/netty/config/DatabaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:14)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bankServiceImpl' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\application\service\impl\BankServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountRepositoryImpl' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\repository\service\impl\AccountRepositoryImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountMapper' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\persistence\mapper\AccountMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/lut/licon/netty/config/DatabaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountRepositoryImpl' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\repository\service\impl\AccountRepositoryImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountMapper' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\persistence\mapper\AccountMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/lut/licon/netty/config/DatabaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountMapper' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\persistence\mapper\AccountMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/lut/licon/netty/config/DatabaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 47 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/lut/licon/netty/config/DatabaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 72 common frames omitted
+Caused by: java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at com.zaxxer.hikari.HikariConfig.validate(HikariConfig.java:1029)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:109)
+	at com.lut.licon.netty.config.DatabaseConfiguration.initDatabaseType(DatabaseConfiguration.java:164)
+	at com.lut.licon.netty.config.DatabaseConfiguration.sqlSessionFactory(DatabaseConfiguration.java:108)
+	at com.lut.licon.netty.config.DatabaseConfiguration$$EnhancerBySpringCGLIB$$bc75950b.CGLIB$sqlSessionFactory$0(<generated>)
+	at com.lut.licon.netty.config.DatabaseConfiguration$$EnhancerBySpringCGLIB$$bc75950b$$FastClassBySpringCGLIB$$2c25bf2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.lut.licon.netty.config.DatabaseConfiguration$$EnhancerBySpringCGLIB$$bc75950b.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 73 common frames omitted
+
+2021-12-01 09:14:54.477  INFO 19080 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:14:54.732  INFO 19080 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:14:55.131  INFO 19080 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2291 ms
+2021-12-01 09:14:55.719  WARN 19080 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferController' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\api\TransferController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bankServiceImpl' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\application\service\impl\BankServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountRepositoryImpl' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\repository\service\impl\AccountRepositoryImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountMapper' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\persistence\mapper\AccountMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/lut/licon/netty/config/DatabaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+2021-12-01 09:14:55.738  INFO 19080 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-01 09:14:55.765 ERROR 19080 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'transferController' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\api\TransferController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bankServiceImpl' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\application\service\impl\BankServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountRepositoryImpl' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\repository\service\impl\AccountRepositoryImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountMapper' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\persistence\mapper\AccountMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/lut/licon/netty/config/DatabaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:14)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bankServiceImpl' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\application\service\impl\BankServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountRepositoryImpl' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\repository\service\impl\AccountRepositoryImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountMapper' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\persistence\mapper\AccountMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/lut/licon/netty/config/DatabaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountRepositoryImpl' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\repository\service\impl\AccountRepositoryImpl.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountMapper' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\persistence\mapper\AccountMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/lut/licon/netty/config/DatabaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'accountMapper' defined in file [E:\project\cpic_project\netty\target\classes\com\lut\licon\netty\ddd\persistence\mapper\AccountMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/lut/licon/netty/config/DatabaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 47 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/lut/licon/netty/config/DatabaseConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 59 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 72 common frames omitted
+Caused by: java.lang.IllegalArgumentException: dataSource or dataSourceClassName or jdbcUrl is required.
+	at com.zaxxer.hikari.HikariConfig.validate(HikariConfig.java:1029)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:109)
+	at com.lut.licon.netty.config.DatabaseConfiguration.initDatabaseType(DatabaseConfiguration.java:164)
+	at com.lut.licon.netty.config.DatabaseConfiguration.sqlSessionFactory(DatabaseConfiguration.java:108)
+	at com.lut.licon.netty.config.DatabaseConfiguration$$EnhancerBySpringCGLIB$$d53f978.CGLIB$sqlSessionFactory$1(<generated>)
+	at com.lut.licon.netty.config.DatabaseConfiguration$$EnhancerBySpringCGLIB$$d53f978$$FastClassBySpringCGLIB$$afe764d1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.lut.licon.netty.config.DatabaseConfiguration$$EnhancerBySpringCGLIB$$d53f978.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 73 common frames omitted
+
+2021-12-01 09:15:14.441  INFO 18104 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:15:14.658  INFO 18104 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:15:15.119  INFO 18104 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2168 ms
+2021-12-01 09:15:51.269  INFO 18104 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54d62c35, org.springframework.security.web.context.SecurityContextPersistenceFilter@57e83608, org.springframework.security.web.header.HeaderWriterFilter@1dd01876, org.springframework.security.web.authentication.logout.LogoutFilter@1ae69abe, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@44046b0d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f726cf4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b26d289, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5eb4b746, org.springframework.security.web.session.SessionManagementFilter@6bf27411, org.springframework.security.web.access.ExceptionTranslationFilter@31d51518, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@136480b]
+2021-12-01 09:15:51.278  INFO 18104 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25bbca43, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c0d876c, org.springframework.security.web.header.HeaderWriterFilter@22858c21, org.springframework.security.web.authentication.logout.LogoutFilter@38f4a641, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@31fc1b6e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@794b139b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77217c17, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@653fbbfc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74cd82f1, org.springframework.security.web.session.SessionManagementFilter@39a8c08f, org.springframework.security.web.access.ExceptionTranslationFilter@1f40bb80, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@92fa950]
+2021-12-01 09:16:10.319  INFO 18104 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 09:16:10.531  INFO 18104 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 212 ms
+2021-12-01 09:16:10.531  INFO 18104 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 09:16:10.585  INFO 18104 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 54 ms
+2021-12-01 09:16:10.586  INFO 18104 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-12-01 09:16:10.587  INFO 18104 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 09:17:32.363  INFO 18104 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-12-01 09:20:36.416  INFO 20748 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:20:36.625  INFO 20748 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:20:37.081  INFO 20748 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2194 ms
+2021-12-01 09:21:13.014  INFO 20748 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2aaed928, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c5d1649, org.springframework.security.web.header.HeaderWriterFilter@5481001f, org.springframework.security.web.authentication.logout.LogoutFilter@6aeb769d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@118cbb26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3095c449, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7306836f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@155cf9f6, org.springframework.security.web.session.SessionManagementFilter@475c2f47, org.springframework.security.web.access.ExceptionTranslationFilter@3a5663ef, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@12e04531]
+2021-12-01 09:21:13.023  INFO 20748 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@197c3101, org.springframework.security.web.context.SecurityContextPersistenceFilter@136a5572, org.springframework.security.web.header.HeaderWriterFilter@65d3e2ba, org.springframework.security.web.authentication.logout.LogoutFilter@d140627, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@11ce61d1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11548363, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6be865c1, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@10007fdc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b5e1b16, org.springframework.security.web.session.SessionManagementFilter@5f9f1886, org.springframework.security.web.access.ExceptionTranslationFilter@520e6089, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14f11a56]
+2021-12-01 09:21:38.576  WARN 20748 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'quartzScheduler' defined in class path resource [org/springframework/boot/autoconfigure/quartz/QuartzAutoConfiguration.class]: Invocation of init method failed; nested exception is org.quartz.SchedulerConfigException: DataSource name not set.
+2021-12-01 09:21:38.577  WARN 20748 --- [           main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'modelerLiquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 09:21:38.589  WARN 20748 --- [           main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'liquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 09:21:38.616  INFO 20748 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-01 09:21:38.637 ERROR 20748 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'quartzScheduler' defined in class path resource [org/springframework/boot/autoconfigure/quartz/QuartzAutoConfiguration.class]: Invocation of init method failed; nested exception is org.quartz.SchedulerConfigException: DataSource name not set.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:14)
+Caused by: org.quartz.SchedulerConfigException: DataSource name not set.
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.initialize(JobStoreSupport.java:643)
+	at org.quartz.impl.jdbcjobstore.JobStoreTX.initialize(JobStoreTX.java:57)
+	at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1368)
+	at org.quartz.impl.StdSchedulerFactory.getScheduler(StdSchedulerFactory.java:1579)
+	at org.springframework.scheduling.quartz.SchedulerFactoryBean.createScheduler(SchedulerFactoryBean.java:677)
+	at org.springframework.scheduling.quartz.SchedulerFactoryBean.prepareScheduler(SchedulerFactoryBean.java:614)
+	at org.springframework.scheduling.quartz.SchedulerFactoryBean.afterPropertiesSet(SchedulerFactoryBean.java:502)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 16 common frames omitted
+
+2021-12-01 09:27:21.972  INFO 15448 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:28:18.630  INFO 18308 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:28:18.881  INFO 18308 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:28:19.290  INFO 18308 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1998 ms
+2021-12-01 09:28:53.061  INFO 18308 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60773809, org.springframework.security.web.context.SecurityContextPersistenceFilter@2df40273, org.springframework.security.web.header.HeaderWriterFilter@35c69e6b, org.springframework.security.web.authentication.logout.LogoutFilter@4c0989f7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@64f1e9f8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f28a07e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ce71bbb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24c7b944, org.springframework.security.web.session.SessionManagementFilter@6138ee0e, org.springframework.security.web.access.ExceptionTranslationFilter@664c0466, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c50d1b2]
+2021-12-01 09:28:53.070  INFO 18308 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f14d079, org.springframework.security.web.context.SecurityContextPersistenceFilter@135f760a, org.springframework.security.web.header.HeaderWriterFilter@2fad50f2, org.springframework.security.web.authentication.logout.LogoutFilter@6030eff1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7aff1db3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36e9fd4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@730611a0, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@5a02fca5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d0456ad, org.springframework.security.web.session.SessionManagementFilter@32192a69, org.springframework.security.web.access.ExceptionTranslationFilter@6b72c62, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@490dfe25]
+2021-12-01 09:31:05.394  INFO 18308 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 09:31:05.579  INFO 18308 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 185 ms
+2021-12-01 09:31:05.580  INFO 18308 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 09:31:05.626  INFO 18308 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 46 ms
+2021-12-01 09:31:05.627  INFO 18308 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-12-01 09:31:05.627  INFO 18308 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 09:32:11.540  INFO 20348 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:32:11.817  INFO 20348 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:32:12.288  INFO 20348 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2082 ms
+2021-12-01 09:32:51.580  INFO 11156 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:32:51.920  INFO 11156 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:32:52.354  INFO 11156 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3848 ms
+2021-12-01 09:36:50.123  INFO 3012 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:36:50.415  INFO 3012 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:36:50.854  INFO 3012 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3270 ms
+2021-12-01 09:37:00.054  WARN 3012 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appRepositoryServiceBean' defined in class path resource [org/flowable/spring/boot/app/AppEngineServicesAutoConfiguration.class]: Unsatisfied dependency expressed through method 'appRepositoryServiceBean' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flowableAppEngine': FactoryBean threw exception on object creation; nested exception is org.flowable.common.engine.api.FlowableException: couldn't upgrade db schema: insert into ACT_GE_PROPERTY values ('common.schema.version', '6.2.0.0', 1)
+2021-12-01 09:37:00.057  WARN 3012 --- [           main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'liquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 09:37:00.085  INFO 3012 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-01 09:37:00.108 ERROR 3012 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appRepositoryServiceBean' defined in class path resource [org/flowable/spring/boot/app/AppEngineServicesAutoConfiguration.class]: Unsatisfied dependency expressed through method 'appRepositoryServiceBean' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flowableAppEngine': FactoryBean threw exception on object creation; nested exception is org.flowable.common.engine.api.FlowableException: couldn't upgrade db schema: insert into ACT_GE_PROPERTY values ('common.schema.version', '6.2.0.0', 1)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:14)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flowableAppEngine': FactoryBean threw exception on object creation; nested exception is org.flowable.common.engine.api.FlowableException: couldn't upgrade db schema: insert into ACT_GE_PROPERTY values ('common.schema.version', '6.2.0.0', 1)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:176)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1884)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:267)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1605)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1343)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.flowable.common.engine.api.FlowableException: couldn't upgrade db schema: insert into ACT_GE_PROPERTY values ('common.schema.version', '6.2.0.0', 1)
+	at org.flowable.common.engine.impl.db.AbstractSqlScriptBasedDbSchemaManager.executeSchemaResource(AbstractSqlScriptBasedDbSchemaManager.java:343)
+	at org.flowable.common.engine.impl.db.AbstractSqlScriptBasedDbSchemaManager.executeSchemaResource(AbstractSqlScriptBasedDbSchemaManager.java:227)
+	at org.flowable.common.engine.impl.db.AbstractSqlScriptBasedDbSchemaManager.dbSchemaUpgrade(AbstractSqlScriptBasedDbSchemaManager.java:98)
+	at org.flowable.common.engine.impl.db.ServiceSqlScriptBasedDbSchemaManager.schemaUpdate(ServiceSqlScriptBasedDbSchemaManager.java:78)
+	at org.flowable.engine.impl.db.ProcessDbSchemaManager.schemaUpdate(ProcessDbSchemaManager.java:215)
+	at org.flowable.engine.impl.SchemaOperationsProcessEngineBuild.execute(SchemaOperationsProcessEngineBuild.java:54)
+	at org.flowable.engine.impl.SchemaOperationsProcessEngineBuild.execute(SchemaOperationsProcessEngineBuild.java:28)
+	at org.flowable.engine.impl.interceptor.CommandInvoker$1.run(CommandInvoker.java:67)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:140)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:114)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:72)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.engine.impl.ProcessEngineImpl.<init>(ProcessEngineImpl.java:83)
+	at org.flowable.engine.impl.cfg.ProcessEngineConfigurationImpl.buildProcessEngine(ProcessEngineConfigurationImpl.java:914)
+	at org.flowable.spring.SpringProcessEngineConfiguration.buildProcessEngine(SpringProcessEngineConfiguration.java:76)
+	at org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator.initProcessEngine(SpringProcessEngineConfigurator.java:58)
+	at org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator.configure(SpringProcessEngineConfigurator.java:47)
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.configuratorsAfterInit(AbstractEngineConfiguration.java:1109)
+	at org.flowable.app.engine.AppEngineConfiguration.init(AppEngineConfiguration.java:237)
+	at org.flowable.app.engine.AppEngineConfiguration.buildAppEngine(AppEngineConfiguration.java:193)
+	at org.flowable.app.spring.SpringAppEngineConfiguration.buildAppEngine(SpringAppEngineConfiguration.java:66)
+	at org.flowable.app.spring.AppEngineFactoryBean.getObject(AppEngineFactoryBean.java:58)
+	at org.flowable.app.spring.AppEngineFactoryBean.getObject(AppEngineFactoryBean.java:31)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169)
+	... 31 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Table 'domian.act_ge_property' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:768)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.flowable.common.engine.impl.db.AbstractSqlScriptBasedDbSchemaManager.executeSchemaResource(AbstractSqlScriptBasedDbSchemaManager.java:314)
+	... 61 common frames omitted
+
+2021-12-01 09:38:37.584  INFO 3824 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:38:37.782  INFO 3824 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:38:38.161  INFO 3824 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1856 ms
+2021-12-01 09:38:47.440  WARN 3824 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appRepositoryServiceBean' defined in class path resource [org/flowable/spring/boot/app/AppEngineServicesAutoConfiguration.class]: Unsatisfied dependency expressed through method 'appRepositoryServiceBean' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flowableAppEngine': FactoryBean threw exception on object creation; nested exception is org.flowable.common.engine.api.FlowableException: couldn't upgrade db schema: insert into ACT_GE_PROPERTY values ('common.schema.version', '6.2.0.0', 1)
+2021-12-01 09:38:47.443  WARN 3824 --- [           main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'liquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 09:38:47.469  INFO 3824 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-01 09:38:47.491 ERROR 3824 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appRepositoryServiceBean' defined in class path resource [org/flowable/spring/boot/app/AppEngineServicesAutoConfiguration.class]: Unsatisfied dependency expressed through method 'appRepositoryServiceBean' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flowableAppEngine': FactoryBean threw exception on object creation; nested exception is org.flowable.common.engine.api.FlowableException: couldn't upgrade db schema: insert into ACT_GE_PROPERTY values ('common.schema.version', '6.2.0.0', 1)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:14)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flowableAppEngine': FactoryBean threw exception on object creation; nested exception is org.flowable.common.engine.api.FlowableException: couldn't upgrade db schema: insert into ACT_GE_PROPERTY values ('common.schema.version', '6.2.0.0', 1)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:176)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1884)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:267)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1605)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1343)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.flowable.common.engine.api.FlowableException: couldn't upgrade db schema: insert into ACT_GE_PROPERTY values ('common.schema.version', '6.2.0.0', 1)
+	at org.flowable.common.engine.impl.db.AbstractSqlScriptBasedDbSchemaManager.executeSchemaResource(AbstractSqlScriptBasedDbSchemaManager.java:343)
+	at org.flowable.common.engine.impl.db.AbstractSqlScriptBasedDbSchemaManager.executeSchemaResource(AbstractSqlScriptBasedDbSchemaManager.java:227)
+	at org.flowable.common.engine.impl.db.AbstractSqlScriptBasedDbSchemaManager.dbSchemaUpgrade(AbstractSqlScriptBasedDbSchemaManager.java:98)
+	at org.flowable.common.engine.impl.db.ServiceSqlScriptBasedDbSchemaManager.schemaUpdate(ServiceSqlScriptBasedDbSchemaManager.java:78)
+	at org.flowable.engine.impl.db.ProcessDbSchemaManager.schemaUpdate(ProcessDbSchemaManager.java:215)
+	at org.flowable.engine.impl.SchemaOperationsProcessEngineBuild.execute(SchemaOperationsProcessEngineBuild.java:54)
+	at org.flowable.engine.impl.SchemaOperationsProcessEngineBuild.execute(SchemaOperationsProcessEngineBuild.java:28)
+	at org.flowable.engine.impl.interceptor.CommandInvoker$1.run(CommandInvoker.java:67)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:140)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:114)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:72)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.engine.impl.ProcessEngineImpl.<init>(ProcessEngineImpl.java:83)
+	at org.flowable.engine.impl.cfg.ProcessEngineConfigurationImpl.buildProcessEngine(ProcessEngineConfigurationImpl.java:914)
+	at org.flowable.spring.SpringProcessEngineConfiguration.buildProcessEngine(SpringProcessEngineConfiguration.java:76)
+	at org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator.initProcessEngine(SpringProcessEngineConfigurator.java:58)
+	at org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator.configure(SpringProcessEngineConfigurator.java:47)
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.configuratorsAfterInit(AbstractEngineConfiguration.java:1109)
+	at org.flowable.app.engine.AppEngineConfiguration.init(AppEngineConfiguration.java:237)
+	at org.flowable.app.engine.AppEngineConfiguration.buildAppEngine(AppEngineConfiguration.java:193)
+	at org.flowable.app.spring.SpringAppEngineConfiguration.buildAppEngine(SpringAppEngineConfiguration.java:66)
+	at org.flowable.app.spring.AppEngineFactoryBean.getObject(AppEngineFactoryBean.java:58)
+	at org.flowable.app.spring.AppEngineFactoryBean.getObject(AppEngineFactoryBean.java:31)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169)
+	... 31 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Table 'domian.act_ge_property' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:768)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.flowable.common.engine.impl.db.AbstractSqlScriptBasedDbSchemaManager.executeSchemaResource(AbstractSqlScriptBasedDbSchemaManager.java:314)
+	... 61 common frames omitted
+
+2021-12-01 09:48:39.618  INFO 4856 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:48:39.836  INFO 4856 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:48:40.188  INFO 4856 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2867 ms
+2021-12-01 09:48:48.990  WARN 4856 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appRepositoryServiceBean' defined in class path resource [org/flowable/spring/boot/app/AppEngineServicesAutoConfiguration.class]: Unsatisfied dependency expressed through method 'appRepositoryServiceBean' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flowableAppEngine': FactoryBean threw exception on object creation; nested exception is org.flowable.common.engine.api.FlowableException: couldn't upgrade db schema: insert into ACT_GE_PROPERTY values ('common.schema.version', '6.2.0.0', 1)
+2021-12-01 09:48:48.993  WARN 4856 --- [           main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'liquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 09:48:49.020  INFO 4856 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-01 09:48:49.043 ERROR 4856 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'appRepositoryServiceBean' defined in class path resource [org/flowable/spring/boot/app/AppEngineServicesAutoConfiguration.class]: Unsatisfied dependency expressed through method 'appRepositoryServiceBean' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flowableAppEngine': FactoryBean threw exception on object creation; nested exception is org.flowable.common.engine.api.FlowableException: couldn't upgrade db schema: insert into ACT_GE_PROPERTY values ('common.schema.version', '6.2.0.0', 1)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:14)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flowableAppEngine': FactoryBean threw exception on object creation; nested exception is org.flowable.common.engine.api.FlowableException: couldn't upgrade db schema: insert into ACT_GE_PROPERTY values ('common.schema.version', '6.2.0.0', 1)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:176)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1884)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:267)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1605)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1562)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1343)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 19 common frames omitted
+Caused by: org.flowable.common.engine.api.FlowableException: couldn't upgrade db schema: insert into ACT_GE_PROPERTY values ('common.schema.version', '6.2.0.0', 1)
+	at org.flowable.common.engine.impl.db.AbstractSqlScriptBasedDbSchemaManager.executeSchemaResource(AbstractSqlScriptBasedDbSchemaManager.java:343)
+	at org.flowable.common.engine.impl.db.AbstractSqlScriptBasedDbSchemaManager.executeSchemaResource(AbstractSqlScriptBasedDbSchemaManager.java:227)
+	at org.flowable.common.engine.impl.db.AbstractSqlScriptBasedDbSchemaManager.dbSchemaUpgrade(AbstractSqlScriptBasedDbSchemaManager.java:98)
+	at org.flowable.common.engine.impl.db.ServiceSqlScriptBasedDbSchemaManager.schemaUpdate(ServiceSqlScriptBasedDbSchemaManager.java:78)
+	at org.flowable.engine.impl.db.ProcessDbSchemaManager.schemaUpdate(ProcessDbSchemaManager.java:215)
+	at org.flowable.engine.impl.SchemaOperationsProcessEngineBuild.execute(SchemaOperationsProcessEngineBuild.java:54)
+	at org.flowable.engine.impl.SchemaOperationsProcessEngineBuild.execute(SchemaOperationsProcessEngineBuild.java:28)
+	at org.flowable.engine.impl.interceptor.CommandInvoker$1.run(CommandInvoker.java:67)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:140)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:114)
+	at org.flowable.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:72)
+	at org.flowable.engine.impl.interceptor.BpmnOverrideContextInterceptor.execute(BpmnOverrideContextInterceptor.java:26)
+	at org.flowable.common.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:53)
+	at org.flowable.common.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:105)
+	at org.flowable.common.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:57)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.flowable.common.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:57)
+	at org.flowable.common.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:30)
+	at org.flowable.common.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:56)
+	at org.flowable.engine.impl.ProcessEngineImpl.<init>(ProcessEngineImpl.java:83)
+	at org.flowable.engine.impl.cfg.ProcessEngineConfigurationImpl.buildProcessEngine(ProcessEngineConfigurationImpl.java:914)
+	at org.flowable.spring.SpringProcessEngineConfiguration.buildProcessEngine(SpringProcessEngineConfiguration.java:76)
+	at org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator.initProcessEngine(SpringProcessEngineConfigurator.java:58)
+	at org.flowable.engine.spring.configurator.SpringProcessEngineConfigurator.configure(SpringProcessEngineConfigurator.java:47)
+	at org.flowable.common.engine.impl.AbstractEngineConfiguration.configuratorsAfterInit(AbstractEngineConfiguration.java:1109)
+	at org.flowable.app.engine.AppEngineConfiguration.init(AppEngineConfiguration.java:237)
+	at org.flowable.app.engine.AppEngineConfiguration.buildAppEngine(AppEngineConfiguration.java:193)
+	at org.flowable.app.spring.SpringAppEngineConfiguration.buildAppEngine(SpringAppEngineConfiguration.java:66)
+	at org.flowable.app.spring.AppEngineFactoryBean.getObject(AppEngineFactoryBean.java:58)
+	at org.flowable.app.spring.AppEngineFactoryBean.getObject(AppEngineFactoryBean.java:31)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169)
+	... 31 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Table 'domian.act_ge_property' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:768)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.flowable.common.engine.impl.db.AbstractSqlScriptBasedDbSchemaManager.executeSchemaResource(AbstractSqlScriptBasedDbSchemaManager.java:314)
+	... 61 common frames omitted
+
+2021-12-01 09:50:30.805  INFO 3160 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:50:31.115  INFO 3160 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:50:31.554  INFO 3160 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3019 ms
+2021-12-01 09:51:38.704  INFO 3160 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d0cc47d, org.springframework.security.web.context.SecurityContextPersistenceFilter@3bd5dff5, org.springframework.security.web.header.HeaderWriterFilter@69c53b72, org.springframework.security.web.authentication.logout.LogoutFilter@11c372e9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@760b9444, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68cc6fa4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72dc7f0a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56dae6, org.springframework.security.web.session.SessionManagementFilter@116fe252, org.springframework.security.web.access.ExceptionTranslationFilter@1c00a9f0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7018636a]
+2021-12-01 09:51:38.715  INFO 3160 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b6637f3, org.springframework.security.web.context.SecurityContextPersistenceFilter@6345dc06, org.springframework.security.web.header.HeaderWriterFilter@272cec71, org.springframework.security.web.authentication.logout.LogoutFilter@3a034950, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2c555efb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@628d6320, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@22025464, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@38f7a20, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5dc218e2, org.springframework.security.web.session.SessionManagementFilter@12e8ea81, org.springframework.security.web.access.ExceptionTranslationFilter@7c070e78, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d160056]
+2021-12-01 09:54:21.135  INFO 3160 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 09:54:22.335  INFO 3160 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1200 ms
+2021-12-01 09:54:22.336  INFO 3160 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 09:54:22.381  INFO 3160 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 45 ms
+2021-12-01 09:54:22.382  INFO 3160 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-12-01 09:54:22.383  INFO 3160 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 09:57:41.434  INFO 19488 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 09:57:41.739  INFO 19488 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 09:57:42.195  INFO 19488 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3237 ms
+2021-12-01 09:58:16.907  INFO 19488 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43069adf, org.springframework.security.web.context.SecurityContextPersistenceFilter@27f6e2c3, org.springframework.security.web.header.HeaderWriterFilter@285b63eb, org.springframework.security.web.authentication.logout.LogoutFilter@60be9fdf, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7ecd6861, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@665c79a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d018c58, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18edbed9, org.springframework.security.web.session.SessionManagementFilter@1fa8a4f7, org.springframework.security.web.access.ExceptionTranslationFilter@1ead6e20, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7fecc26f]
+2021-12-01 09:58:16.916  INFO 19488 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c9b0c16, org.springframework.security.web.context.SecurityContextPersistenceFilter@145ce025, org.springframework.security.web.header.HeaderWriterFilter@2f53e07d, org.springframework.security.web.authentication.logout.LogoutFilter@549b26d7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2d6cbbdb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1deca369, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d0ce8a1, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@66978c15, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34e1c23d, org.springframework.security.web.session.SessionManagementFilter@5c3ad125, org.springframework.security.web.access.ExceptionTranslationFilter@216c6825, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53c0424a]
+2021-12-01 09:58:50.824  INFO 19488 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 09:58:51.019  INFO 19488 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 195 ms
+2021-12-01 09:58:51.019  INFO 19488 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 09:58:51.068  INFO 19488 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 49 ms
+2021-12-01 09:58:51.069  INFO 19488 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-12-01 09:58:51.069  INFO 19488 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 10:02:50.821  INFO 1548 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 10:02:51.108  INFO 1548 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 10:02:51.511  INFO 1548 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3456 ms
+2021-12-01 10:03:24.714  INFO 1548 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@592fbd8, org.springframework.security.web.context.SecurityContextPersistenceFilter@2125086c, org.springframework.security.web.header.HeaderWriterFilter@4a10e65b, org.springframework.security.web.authentication.logout.LogoutFilter@62f63625, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@ba90170, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57f9f387, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24673720, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@354baab2, org.springframework.security.web.session.SessionManagementFilter@7a791e8b, org.springframework.security.web.access.ExceptionTranslationFilter@d0456ad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@721f3526]
+2021-12-01 10:03:24.724  INFO 1548 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f6b128b, org.springframework.security.web.context.SecurityContextPersistenceFilter@42516ce2, org.springframework.security.web.header.HeaderWriterFilter@75c0e6be, org.springframework.security.web.authentication.logout.LogoutFilter@3393aa46, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@365fde74, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74e111a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e6ec9c, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@7eb006bd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@470fc16c, org.springframework.security.web.session.SessionManagementFilter@3dfe520, org.springframework.security.web.access.ExceptionTranslationFilter@586a9fe1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5d00241b]
+2021-12-01 10:03:32.002  INFO 1548 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 10:03:32.387  INFO 1548 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 385 ms
+2021-12-01 10:03:32.388  INFO 1548 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 10:03:32.512  INFO 1548 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 124 ms
+2021-12-01 10:03:32.514  INFO 1548 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-12-01 10:03:32.515  INFO 1548 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 10:09:01.161  INFO 1548 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-12-01 10:09:01.249  WARN 1548 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'modelerLiquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 10:09:01.365  WARN 1548 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'liquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 10:15:24.870  INFO 17496 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 10:15:25.086  INFO 17496 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 10:15:25.413  INFO 17496 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1903 ms
+2021-12-01 10:16:04.854  INFO 17496 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@541c76fd, org.springframework.security.web.context.SecurityContextPersistenceFilter@31f96cf, org.springframework.security.web.header.HeaderWriterFilter@18d8da77, org.springframework.security.web.authentication.logout.LogoutFilter@42c9c0a1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3b2317b7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d4b0a07, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@264c9994, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1142843c, org.springframework.security.web.session.SessionManagementFilter@486d1868, org.springframework.security.web.access.ExceptionTranslationFilter@1a9e2c3b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@72bef795]
+2021-12-01 10:16:04.864  INFO 17496 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7fd7965b, org.springframework.security.web.context.SecurityContextPersistenceFilter@51c0346d, org.springframework.security.web.header.HeaderWriterFilter@221961f2, org.springframework.security.web.authentication.logout.LogoutFilter@33f059ad, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4ef7145f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32cda33c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5bb24266, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@25131637, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9742012, org.springframework.security.web.session.SessionManagementFilter@541d8a9e, org.springframework.security.web.access.ExceptionTranslationFilter@52e44f71, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73299197]
+2021-12-01 10:16:31.899  INFO 17496 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 10:16:32.134  INFO 17496 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 234 ms
+2021-12-01 10:16:32.134  INFO 17496 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 10:16:32.190  INFO 17496 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 56 ms
+2021-12-01 10:16:32.191  INFO 17496 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-12-01 10:16:32.192  INFO 17496 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 10:17:55.276  INFO 17496 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-01 10:17:55.277  INFO 17496 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-12-01 10:27:33.777  INFO 12656 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 10:27:34.037  INFO 12656 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 10:27:34.460  INFO 12656 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3209 ms
+2021-12-01 10:28:10.494  INFO 12656 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46c7e6c0, org.springframework.security.web.context.SecurityContextPersistenceFilter@18f1631c, org.springframework.security.web.header.HeaderWriterFilter@578483bd, org.springframework.security.web.authentication.logout.LogoutFilter@18a349cb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3f2bf80d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72b4ecb2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6edc8385, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@701a79b, org.springframework.security.web.session.SessionManagementFilter@56f4f385, org.springframework.security.web.access.ExceptionTranslationFilter@498cf1dc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@9423344]
+2021-12-01 10:28:10.503  INFO 12656 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1899c7ae, org.springframework.security.web.context.SecurityContextPersistenceFilter@3da8a302, org.springframework.security.web.header.HeaderWriterFilter@47bae235, org.springframework.security.web.authentication.logout.LogoutFilter@72f91c91, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@62d4dac4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21b75073, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@318ca53a, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@3d273300, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5cdf2c83, org.springframework.security.web.session.SessionManagementFilter@7f588bc6, org.springframework.security.web.access.ExceptionTranslationFilter@42c9c0a1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1df60140]
+2021-12-01 10:28:19.917  INFO 12656 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 10:28:20.243  INFO 12656 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 326 ms
+2021-12-01 10:28:20.243  INFO 12656 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 10:28:20.331  INFO 12656 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 88 ms
+2021-12-01 10:28:20.333  INFO 12656 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-12-01 10:28:20.335  INFO 12656 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 10:29:20.866  INFO 12656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-01 10:29:20.867  INFO 12656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-01 11:25:58.563  INFO 2028 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 11:25:58.789  INFO 2028 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 11:25:59.120  INFO 2028 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1734 ms
+2021-12-01 11:26:37.944  INFO 2028 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@541d8a9e, org.springframework.security.web.context.SecurityContextPersistenceFilter@763a72da, org.springframework.security.web.header.HeaderWriterFilter@a94c8e3, org.springframework.security.web.authentication.logout.LogoutFilter@1aee0f49, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2e1b1d22, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fc76532, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47bae235, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51c0346d, org.springframework.security.web.session.SessionManagementFilter@281a54b, org.springframework.security.web.access.ExceptionTranslationFilter@392af2e0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@513fb873]
+2021-12-01 11:26:37.953  INFO 2028 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2edc6690, org.springframework.security.web.context.SecurityContextPersistenceFilter@1297cf8, org.springframework.security.web.header.HeaderWriterFilter@f0deba2, org.springframework.security.web.authentication.logout.LogoutFilter@73299197, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7c07deff, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37e15055, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57d1edf0, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@1611ce1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ceeb592, org.springframework.security.web.session.SessionManagementFilter@1ddf9fd, org.springframework.security.web.access.ExceptionTranslationFilter@4c663fda, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f28ee19]
+2021-12-01 13:05:11.748  INFO 2028 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 13:05:12.010  INFO 2028 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 262 ms
+2021-12-01 13:05:12.010  INFO 2028 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 13:05:12.071  INFO 2028 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 61 ms
+2021-12-01 13:05:12.072  INFO 2028 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-12-01 13:05:12.073  INFO 2028 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 13:05:35.786  INFO 2028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-01 13:05:35.787  INFO 2028 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-01 13:07:21.117  INFO 11072 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 13:07:21.377  INFO 11072 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 13:07:22.972  INFO 11072 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3812 ms
+2021-12-01 13:11:00.917  INFO 11696 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 13:11:01.168  INFO 11696 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 13:11:01.575  INFO 11696 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3997 ms
+2021-12-01 13:12:55.873  INFO 11696 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e2c8622, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f606ab6, org.springframework.security.web.header.HeaderWriterFilter@1d921267, org.springframework.security.web.authentication.logout.LogoutFilter@125ed27, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@62d72091, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@198a653, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b9a1be5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b02dc4e, org.springframework.security.web.session.SessionManagementFilter@684a34f4, org.springframework.security.web.access.ExceptionTranslationFilter@665574fb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1af29a19]
+2021-12-01 13:12:55.882  INFO 11696 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@538fb761, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e41e0c, org.springframework.security.web.header.HeaderWriterFilter@6c289070, org.springframework.security.web.authentication.logout.LogoutFilter@611ffa8d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1b4bc7b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e214d39, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@622e39d, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@54dc163a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@163cd4a6, org.springframework.security.web.session.SessionManagementFilter@69e58566, org.springframework.security.web.access.ExceptionTranslationFilter@5c7c22ce, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1cbb394b]
+2021-12-01 13:13:02.491  INFO 11696 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 13:13:02.701  INFO 11696 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 210 ms
+2021-12-01 13:13:02.701  INFO 11696 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 13:13:02.763  INFO 11696 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 61 ms
+2021-12-01 13:13:02.764  INFO 11696 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-01 13:13:02.765  INFO 11696 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 13:13:36.419  INFO 11696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-01 13:13:36.421  INFO 11696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-12-01 13:40:43.096  INFO 17980 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 13:40:43.363  INFO 17980 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 13:40:43.787  INFO 17980 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3337 ms
+2021-12-01 13:41:22.786  INFO 17980 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41c05747, org.springframework.security.web.context.SecurityContextPersistenceFilter@d0456ad, org.springframework.security.web.header.HeaderWriterFilter@7aff1db3, org.springframework.security.web.authentication.logout.LogoutFilter@96271d8, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5cbf9aee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4cb0e39e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65c634f2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64455184, org.springframework.security.web.session.SessionManagementFilter@29ceefb3, org.springframework.security.web.access.ExceptionTranslationFilter@79194b1c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a557a52]
+2021-12-01 13:41:22.794  INFO 17980 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c168f98, org.springframework.security.web.context.SecurityContextPersistenceFilter@39329d81, org.springframework.security.web.header.HeaderWriterFilter@487f025, org.springframework.security.web.authentication.logout.LogoutFilter@20bc3e7f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@31e1c7c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63574d76, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@586a9fe1, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@75c0e6be, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f98859a, org.springframework.security.web.session.SessionManagementFilter@7ef570be, org.springframework.security.web.access.ExceptionTranslationFilter@738b93a8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73624529]
+2021-12-01 13:41:27.092  INFO 17980 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Admin App'
+2021-12-01 13:41:27.331  INFO 17980 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 239 ms
+2021-12-01 13:41:27.331  INFO 17980 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 13:41:27.494  INFO 17980 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 163 ms
+2021-12-01 13:41:27.495  INFO 17980 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 13:41:27.545  INFO 17980 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 50 ms
+2021-12-01 13:41:27.546  INFO 17980 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-01 13:41:27.547  INFO 17980 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 13:41:27.803  INFO 17980 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-01 13:41:27.828 ERROR 17980 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.flowable.common.engine.api.FlowableIllegalArgumentException: Configuration for 'PROCESS' is missing.
+	at org.flowable.ui.admin.service.engine.ServerConfigService.getDefaultServerConfig(ServerConfigService.java:128)
+	at org.flowable.ui.admin.service.engine.ServerConfigService.getDefaultServerConfigs(ServerConfigService.java:163)
+	at org.flowable.ui.admin.service.engine.ServerConfigService.createDefaultServerConfigs(ServerConfigService.java:47)
+	at org.flowable.ui.admin.service.engine.ServerConfigService$$FastClassBySpringCGLIB$$356f601a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at org.flowable.ui.admin.service.engine.ServerConfigService$$EnhancerBySpringCGLIB$$a6d9bf1b.createDefaultServerConfigs(<generated>)
+	at org.flowable.ui.admin.domain.generator.MinimalDataGenerator.onApplicationEvent(MinimalDataGenerator.java:47)
+	at org.flowable.ui.admin.domain.generator.MinimalDataGenerator.onApplicationEvent(MinimalDataGenerator.java:29)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:938)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:14)
+
+2021-12-01 13:41:27.832  INFO 17980 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-12-01 13:41:28.120  WARN 17980 --- [           main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'modelerLiquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 13:41:28.120  WARN 17980 --- [           main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'adminLiquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 13:41:28.136  WARN 17980 --- [           main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'liquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 13:43:04.631  INFO 2456 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 13:43:04.893  INFO 2456 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 13:43:05.297  INFO 2456 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4118 ms
+2021-12-01 13:43:42.336  INFO 2456 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58a93f51, org.springframework.security.web.context.SecurityContextPersistenceFilter@14a3a66c, org.springframework.security.web.header.HeaderWriterFilter@4353230, org.springframework.security.web.authentication.logout.LogoutFilter@34a06981, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7d1b96b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@539953af, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a5244a1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56589f00, org.springframework.security.web.session.SessionManagementFilter@289d9f0d, org.springframework.security.web.access.ExceptionTranslationFilter@3fb920d9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47baf547]
+2021-12-01 13:43:42.346  INFO 2456 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ae8556c, org.springframework.security.web.context.SecurityContextPersistenceFilter@157ff8f8, org.springframework.security.web.header.HeaderWriterFilter@17a756db, org.springframework.security.web.authentication.logout.LogoutFilter@20f94e9a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@639d808a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a1abba1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67263db7, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@693c7741, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@157e0f6b, org.springframework.security.web.session.SessionManagementFilter@2d10160a, org.springframework.security.web.access.ExceptionTranslationFilter@54151d07, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@324ee3ca]
+2021-12-01 13:43:46.935  INFO 2456 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Admin App'
+2021-12-01 13:43:47.191  INFO 2456 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 255 ms
+2021-12-01 13:43:47.192  INFO 2456 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 13:43:47.373  INFO 2456 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 181 ms
+2021-12-01 13:43:47.373  INFO 2456 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 13:43:47.430  INFO 2456 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 57 ms
+2021-12-01 13:43:47.431  INFO 2456 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-01 13:43:47.432  INFO 2456 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 13:43:47.735  INFO 2456 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-01 13:43:47.759 ERROR 2456 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.RuntimeException: java.security.InvalidAlgorithmParameterException: Wrong IV length: must be 16 bytes long
+	at org.flowable.ui.admin.service.engine.AbstractEncryptingService.encrypt(AbstractEncryptingService.java:55)
+	at org.flowable.ui.admin.service.engine.ServerConfigService.save(ServerConfigService.java:93)
+	at org.flowable.ui.admin.service.engine.ServerConfigService.createDefaultServerConfigs(ServerConfigService.java:49)
+	at org.flowable.ui.admin.service.engine.ServerConfigService$$FastClassBySpringCGLIB$$356f601a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at org.flowable.ui.admin.service.engine.ServerConfigService$$EnhancerBySpringCGLIB$$78f2edfe.createDefaultServerConfigs(<generated>)
+	at org.flowable.ui.admin.domain.generator.MinimalDataGenerator.onApplicationEvent(MinimalDataGenerator.java:47)
+	at org.flowable.ui.admin.domain.generator.MinimalDataGenerator.onApplicationEvent(MinimalDataGenerator.java:29)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:938)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:14)
+Caused by: java.security.InvalidAlgorithmParameterException: Wrong IV length: must be 16 bytes long
+	at com.sun.crypto.provider.CipherCore.init(CipherCore.java:525)
+	at com.sun.crypto.provider.AESCipher.engineInit(AESCipher.java:346)
+	at javax.crypto.Cipher.implInit(Cipher.java:809)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:867)
+	at javax.crypto.Cipher.init(Cipher.java:1399)
+	at javax.crypto.Cipher.init(Cipher.java:1330)
+	at org.flowable.ui.admin.service.engine.AbstractEncryptingService.encrypt(AbstractEncryptingService.java:51)
+	... 30 common frames omitted
+
+2021-12-01 13:43:47.763  INFO 2456 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-12-01 13:43:47.801  WARN 2456 --- [           main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'modelerLiquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 13:43:47.802  WARN 2456 --- [           main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'adminLiquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 13:43:47.819  WARN 2456 --- [           main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'liquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 13:45:31.168  INFO 4428 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 13:45:31.421  INFO 4428 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 13:45:31.815  INFO 4428 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1970 ms
+2021-12-01 13:46:13.382  INFO 4428 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@470fc16c, org.springframework.security.web.context.SecurityContextPersistenceFilter@7b8b755d, org.springframework.security.web.header.HeaderWriterFilter@709353b9, org.springframework.security.web.authentication.logout.LogoutFilter@a642c54, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@365fde74, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6df605f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@441c2d2a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d0cc47d, org.springframework.security.web.session.SessionManagementFilter@768967cf, org.springframework.security.web.access.ExceptionTranslationFilter@756b703d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ed7db72]
+2021-12-01 13:46:13.394  INFO 4428 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@369f85c6, org.springframework.security.web.context.SecurityContextPersistenceFilter@12e8ea81, org.springframework.security.web.header.HeaderWriterFilter@639c5ab4, org.springframework.security.web.authentication.logout.LogoutFilter@77eb0e47, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5d160056, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6345dc06, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@628d6320, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@331eb953, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b6637f3, org.springframework.security.web.session.SessionManagementFilter@272cec71, org.springframework.security.web.access.ExceptionTranslationFilter@5834298c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c79a7c1]
+2021-12-01 13:46:19.628  INFO 4428 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Admin App'
+2021-12-01 13:46:20.008  INFO 4428 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 380 ms
+2021-12-01 13:46:20.009  INFO 4428 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 13:46:20.240  INFO 4428 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 231 ms
+2021-12-01 13:46:20.240  INFO 4428 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 13:46:20.323  INFO 4428 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 82 ms
+2021-12-01 13:46:20.324  INFO 4428 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-01 13:46:20.326  INFO 4428 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 13:46:20.667  INFO 4428 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-01 13:46:20.712 ERROR 4428 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.RuntimeException: java.security.InvalidAlgorithmParameterException: Wrong IV length: must be 16 bytes long
+	at org.flowable.ui.admin.service.engine.AbstractEncryptingService.encrypt(AbstractEncryptingService.java:55)
+	at org.flowable.ui.admin.service.engine.ServerConfigService.save(ServerConfigService.java:93)
+	at org.flowable.ui.admin.service.engine.ServerConfigService.createDefaultServerConfigs(ServerConfigService.java:49)
+	at org.flowable.ui.admin.service.engine.ServerConfigService$$FastClassBySpringCGLIB$$356f601a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:783)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:753)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:698)
+	at org.flowable.ui.admin.service.engine.ServerConfigService$$EnhancerBySpringCGLIB$$40c2857b.createDefaultServerConfigs(<generated>)
+	at org.flowable.ui.admin.domain.generator.MinimalDataGenerator.onApplicationEvent(MinimalDataGenerator.java:47)
+	at org.flowable.ui.admin.domain.generator.MinimalDataGenerator.onApplicationEvent(MinimalDataGenerator.java:29)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:421)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:378)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:938)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:14)
+Caused by: java.security.InvalidAlgorithmParameterException: Wrong IV length: must be 16 bytes long
+	at com.sun.crypto.provider.CipherCore.init(CipherCore.java:525)
+	at com.sun.crypto.provider.AESCipher.engineInit(AESCipher.java:346)
+	at javax.crypto.Cipher.implInit(Cipher.java:809)
+	at javax.crypto.Cipher.chooseProvider(Cipher.java:867)
+	at javax.crypto.Cipher.init(Cipher.java:1399)
+	at javax.crypto.Cipher.init(Cipher.java:1330)
+	at org.flowable.ui.admin.service.engine.AbstractEncryptingService.encrypt(AbstractEncryptingService.java:51)
+	... 30 common frames omitted
+
+2021-12-01 13:46:20.717  INFO 4428 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-12-01 13:46:21.285  WARN 4428 --- [           main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'modelerLiquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 13:46:21.286  WARN 4428 --- [           main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'adminLiquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 13:46:21.319  WARN 4428 --- [           main] o.s.b.f.support.DisposableBeanAdapter    : Invocation of close method failed on bean with name 'liquibase': liquibase.exception.DatabaseException: java.sql.SQLException: Connection is closed
+2021-12-01 13:47:18.658  INFO 13340 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 13:47:18.920  INFO 13340 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 13:47:19.359  INFO 13340 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2083 ms
+2021-12-01 13:48:08.481  INFO 13340 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47a72c32, org.springframework.security.web.context.SecurityContextPersistenceFilter@60515ab1, org.springframework.security.web.header.HeaderWriterFilter@2dc54b50, org.springframework.security.web.authentication.logout.LogoutFilter@9423344, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@581cb879, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16a89351, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20e4e27f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@112f8f8f, org.springframework.security.web.session.SessionManagementFilter@19370af1, org.springframework.security.web.access.ExceptionTranslationFilter@54dc163a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44b99467]
+2021-12-01 13:48:08.490  INFO 13340 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5276330a, org.springframework.security.web.context.SecurityContextPersistenceFilter@36299b83, org.springframework.security.web.header.HeaderWriterFilter@7271320c, org.springframework.security.web.authentication.logout.LogoutFilter@15ff247b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@52e44f71, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7212d3df, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9886ec3, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@3b2317b7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@221961f2, org.springframework.security.web.session.SessionManagementFilter@12ce659, org.springframework.security.web.access.ExceptionTranslationFilter@72bef795, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@42ceb67f]
+2021-12-01 13:48:13.373  INFO 13340 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Admin App'
+2021-12-01 13:48:13.800  INFO 13340 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 427 ms
+2021-12-01 13:48:13.801  INFO 13340 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 13:48:14.033  INFO 13340 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 232 ms
+2021-12-01 13:48:14.033  INFO 13340 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 13:48:14.098  INFO 13340 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 65 ms
+2021-12-01 13:48:14.099  INFO 13340 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-01 13:48:14.100  INFO 13340 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 13:48:57.756  INFO 13340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-01 13:48:57.757  INFO 13340 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-01 13:57:58.205  INFO 13284 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 13:57:58.534  INFO 13284 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 13:57:58.943  INFO 13284 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3598 ms
+2021-12-01 13:58:44.755  INFO 13284 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@172ca6a, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a557a52, org.springframework.security.web.header.HeaderWriterFilter@54e39504, org.springframework.security.web.authentication.logout.LogoutFilter@6812708d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4ac2b4c6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39d4f046, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@149fab7f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@174e5929, org.springframework.security.web.session.SessionManagementFilter@13ac1657, org.springframework.security.web.access.ExceptionTranslationFilter@4b59a1c1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@639c5ab4]
+2021-12-01 13:58:44.917  INFO 13284 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@372c428, org.springframework.security.web.context.SecurityContextPersistenceFilter@7510824, org.springframework.security.web.header.HeaderWriterFilter@21553c3a, org.springframework.security.web.authentication.logout.LogoutFilter@7c424dfe, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@48e1e18a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ed6e557, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@766ab25b, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@3577e37c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4458887d, org.springframework.security.web.session.SessionManagementFilter@6c1d25fa, org.springframework.security.web.access.ExceptionTranslationFilter@5b6637f3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@504a9352]
+2021-12-01 13:58:49.462  INFO 13284 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Admin App'
+2021-12-01 13:58:49.701  INFO 13284 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 239 ms
+2021-12-01 13:58:49.701  INFO 13284 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 13:58:49.872  INFO 13284 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 171 ms
+2021-12-01 13:58:49.873  INFO 13284 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 13:58:49.923  INFO 13284 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 50 ms
+2021-12-01 13:58:49.925  INFO 13284 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-01 13:58:49.925  INFO 13284 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 13:59:05.529  INFO 13284 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-01 13:59:05.530  INFO 13284 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-01 14:18:54.319  INFO 13960 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 14:19:07.416  INFO 13960 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e0f2686, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c8e096, org.springframework.security.web.header.HeaderWriterFilter@2f03fdc0, org.springframework.security.web.authentication.logout.LogoutFilter@1d982fbe, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5862ab28, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@587bf2e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44723d95, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e27325d, org.springframework.security.web.session.SessionManagementFilter@1715193f, org.springframework.security.web.access.ExceptionTranslationFilter@3891b430, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58a9e64d]
+2021-12-01 14:19:07.471  INFO 13960 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7db70494, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f98fe6f, org.springframework.security.web.header.HeaderWriterFilter@65dd2191, org.springframework.security.web.authentication.logout.LogoutFilter@7833407, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3b28ab9b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b0d4873, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d0312a, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@66acaa54, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f030217, org.springframework.security.web.session.SessionManagementFilter@6a905513, org.springframework.security.web.access.ExceptionTranslationFilter@3e563293, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@36c1b6ff]
+2021-12-01 14:19:08.634  INFO 13960 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-12-01 14:21:16.155  INFO 18472 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-01 14:21:16.423  INFO 18472 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-01 14:21:16.853  INFO 18472 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2448 ms
+2021-12-01 14:21:56.695  INFO 18472 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/editor/**'] with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7234db3, org.springframework.security.web.context.SecurityContextPersistenceFilter@61868687, org.springframework.security.web.header.HeaderWriterFilter@7c1adb8a, org.springframework.security.web.authentication.logout.LogoutFilter@3325f17, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@77e42cbf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5dd79a57, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15a87fbb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@189c6683, org.springframework.security.web.session.SessionManagementFilter@6ad2cb6d, org.springframework.security.web.access.ExceptionTranslationFilter@57e2d15c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@36003e90]
+2021-12-01 14:21:56.704  INFO 18472 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@149162a4, org.springframework.security.web.context.SecurityContextPersistenceFilter@5f67ff3e, org.springframework.security.web.header.HeaderWriterFilter@cbd9494, org.springframework.security.web.authentication.logout.LogoutFilter@25865fca, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@508de524, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ab87cb8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ac1544f, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@c11ec9b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b8a11d7, org.springframework.security.web.session.SessionManagementFilter@45594dfe, org.springframework.security.web.access.ExceptionTranslationFilter@31c17fd4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4bacabc4]
+2021-12-01 14:22:03.329  INFO 18472 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Admin App'
+2021-12-01 14:22:03.610  INFO 18472 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 281 ms
+2021-12-01 14:22:03.611  INFO 18472 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App Servlet'
+2021-12-01 14:22:03.800  INFO 18472 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 189 ms
+2021-12-01 14:22:03.800  INFO 18472 --- [           main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'Flowable Modeler App API Servlet'
+2021-12-01 14:22:03.864  INFO 18472 --- [           main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 64 ms
+2021-12-01 14:22:03.865  INFO 18472 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-01 14:22:03.866  INFO 18472 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now

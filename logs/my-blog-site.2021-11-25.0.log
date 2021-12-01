@@ -1,0 +1,652 @@
+2021-11-25 08:47:01.368  INFO 10036 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 08:47:02.988  INFO 10036 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 08:47:04.237  INFO 10036 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 08:47:04.242  INFO 10036 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 08:47:04.282  INFO 10036 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-25 08:47:04.326  INFO 10036 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-25 08:47:04.388  INFO 10036 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-25 08:47:04.388  INFO 10036 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637748725176"'s failed in-progress jobs.
+2021-11-25 09:00:39.743  INFO 10036 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-25 09:00:39.744  INFO 10036 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-25 09:00:40.130  INFO 10036 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-25 09:01:30.882  INFO 22524 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 09:01:32.223  INFO 22524 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 09:01:33.488  INFO 22524 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 09:01:33.491  INFO 22524 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 09:01:33.528  INFO 22524 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-25 09:01:33.573  INFO 22524 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-25 09:01:33.647  INFO 22524 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-25 09:01:33.647  INFO 22524 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637801224213"'s failed in-progress jobs.
+2021-11-25 09:01:37.003  INFO 22524 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-25 09:01:37.003  INFO 22524 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-25 09:01:37.499  INFO 22524 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-25 09:02:12.465  INFO 17260 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 09:02:14.210  INFO 17260 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 09:02:15.454  INFO 17260 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 09:02:15.457  INFO 17260 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 09:02:15.497  INFO 17260 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-25 09:02:15.548  INFO 17260 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-25 09:02:15.613  INFO 17260 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-25 09:02:15.613  INFO 17260 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637802093458"'s failed in-progress jobs.
+2021-11-25 09:12:44.735  INFO 17260 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-11-25 09:12:44.735  INFO 17260 --- [SpringContextShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-25 09:12:45.099  INFO 17260 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-25 14:26:28.738  INFO 11648 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 14:26:30.402  INFO 11648 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 14:26:30.828  INFO 11648 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4556 ms
+2021-11-25 14:26:31.811  INFO 11648 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 14:26:52.357  INFO 11648 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 14:26:52.359  INFO 11648 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 14:26:52.369  INFO 11648 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-25 14:26:52.528  INFO 11648 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-11-25 14:26:52.530  INFO 11648 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-25 14:26:52.552  INFO 11648 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-25 14:26:52.552  INFO 11648 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637802135427"'s failed in-progress jobs.
+2021-11-25 14:27:23.087  INFO 11648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 14:27:23.088  INFO 11648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-25 14:28:30.160  INFO 20616 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 14:28:30.349  INFO 20616 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 14:28:30.817  INFO 20616 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2725 ms
+2021-11-25 14:28:31.773  INFO 20616 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 14:28:38.953  INFO 20616 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 14:28:38.955  INFO 20616 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 14:28:38.962  INFO 20616 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-25 14:28:39.056  INFO 20616 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-11-25 14:28:39.058  INFO 20616 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-25 14:28:39.066  INFO 20616 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-25 14:28:39.066  INFO 20616 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637821612338"'s failed in-progress jobs.
+2021-11-25 14:31:31.482  INFO 20616 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 14:31:31.484  INFO 20616 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-25 14:32:17.488  INFO 22712 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 14:32:17.676  INFO 22712 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 14:32:18.122  INFO 22712 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1637 ms
+2021-11-25 14:32:19.092  INFO 22712 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 14:32:25.796  INFO 22712 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 14:32:25.798  INFO 22712 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 14:32:25.808  INFO 22712 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-25 14:32:25.916  INFO 22712 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-11-25 14:32:25.918  INFO 22712 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-25 14:32:25.929  INFO 22712 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-25 14:32:25.929  INFO 22712 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637821718942"'s failed in-progress jobs.
+2021-11-25 14:32:51.981  INFO 22712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 14:32:51.983  INFO 22712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-11-25 15:30:47.442  INFO 14636 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 15:30:47.656  INFO 14636 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 15:30:48.044  INFO 14636 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1993 ms
+2021-11-25 15:30:49.819  INFO 14636 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 15:30:56.658  INFO 14636 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 15:30:56.660  INFO 14636 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 15:30:56.995  WARN 14636 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@c9dcfcd of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+2021-11-25 15:30:56.995  INFO 14636 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-25 15:30:57.161  INFO 14636 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-11-25 15:30:57.171  INFO 14636 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-25 15:30:57.198  INFO 14636 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-25 15:30:57.973 ERROR 14636 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@c9dcfcd of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:15)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@c9dcfcd of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 22 common frames omitted
+Caused by: java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@c9dcfcd of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor.postProcess(AutowireBeanFactoryObjectPostProcessor.java:69)
+	at org.springframework.security.config.annotation.SecurityConfigurerAdapter$CompositeObjectPostProcessor.postProcess(SecurityConfigurerAdapter.java:118)
+	at org.springframework.security.config.annotation.SecurityConfigurerAdapter.postProcess(SecurityConfigurerAdapter.java:79)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.getAuthenticationEntryPoint(FlowableUiCustomFormLoginConfigurer.java:113)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.init(FlowableUiCustomFormLoginConfigurer.java:70)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.init(FlowableUiCustomFormLoginConfigurer.java:51)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:285)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:83)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:305)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@c9dcfcd': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: loginFormUrl must be specified and must be a valid redirect URL
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:420)
+	at org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor.postProcess(AutowireBeanFactoryObjectPostProcessor.java:65)
+	... 41 common frames omitted
+Caused by: java.lang.IllegalArgumentException: loginFormUrl must be specified and must be a valid redirect URL
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint.afterPropertiesSet(LoginUrlAuthenticationEntryPoint.java:95)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 43 common frames omitted
+
+2021-11-25 15:51:16.052  INFO 14740 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 15:51:16.370  INFO 14740 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 15:51:16.800  INFO 14740 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2100 ms
+2021-11-25 15:51:18.341  INFO 14740 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 15:51:25.167  INFO 14740 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 15:51:25.169  INFO 14740 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 15:51:25.311  WARN 14740 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@4796ae58 of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+2021-11-25 15:51:25.312  INFO 14740 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-25 15:51:25.655  INFO 14740 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-11-25 15:51:25.665  INFO 14740 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-25 15:51:25.686  INFO 14740 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-25 15:51:25.706 ERROR 14740 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@4796ae58 of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:15)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@4796ae58 of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 22 common frames omitted
+Caused by: java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@4796ae58 of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor.postProcess(AutowireBeanFactoryObjectPostProcessor.java:69)
+	at org.springframework.security.config.annotation.SecurityConfigurerAdapter$CompositeObjectPostProcessor.postProcess(SecurityConfigurerAdapter.java:118)
+	at org.springframework.security.config.annotation.SecurityConfigurerAdapter.postProcess(SecurityConfigurerAdapter.java:79)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.getAuthenticationEntryPoint(FlowableUiCustomFormLoginConfigurer.java:113)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.init(FlowableUiCustomFormLoginConfigurer.java:70)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.init(FlowableUiCustomFormLoginConfigurer.java:51)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:285)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:83)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:305)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@4796ae58': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: loginFormUrl must be specified and must be a valid redirect URL
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:420)
+	at org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor.postProcess(AutowireBeanFactoryObjectPostProcessor.java:65)
+	... 41 common frames omitted
+Caused by: java.lang.IllegalArgumentException: loginFormUrl must be specified and must be a valid redirect URL
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint.afterPropertiesSet(LoginUrlAuthenticationEntryPoint.java:95)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 43 common frames omitted
+
+2021-11-25 15:51:56.315  INFO 5468 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 15:51:56.603  INFO 5468 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 15:51:57.066  INFO 5468 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2331 ms
+2021-11-25 15:51:58.456  INFO 5468 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 15:52:05.425  INFO 5468 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 15:52:05.427  INFO 5468 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 15:57:21.017  WARN 5468 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@3e492199 of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+2021-11-25 15:57:21.017  INFO 5468 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-25 15:57:21.515  INFO 5468 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-11-25 15:57:21.527  INFO 5468 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-25 15:57:31.670  INFO 22880 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 15:57:31.949  INFO 22880 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 15:57:32.341  INFO 22880 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3018 ms
+2021-11-25 15:57:33.708  INFO 22880 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 15:57:40.657  INFO 22880 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 15:57:40.659  INFO 22880 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 15:57:45.195  WARN 22880 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@15c46930 of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+2021-11-25 15:57:45.196  INFO 22880 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-25 15:57:45.691  INFO 22880 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-11-25 15:57:45.701  INFO 22880 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-25 15:57:45.724  INFO 22880 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-25 15:57:45.743 ERROR 22880 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@15c46930 of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:15)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@15c46930 of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 22 common frames omitted
+Caused by: java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@15c46930 of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor.postProcess(AutowireBeanFactoryObjectPostProcessor.java:69)
+	at org.springframework.security.config.annotation.SecurityConfigurerAdapter$CompositeObjectPostProcessor.postProcess(SecurityConfigurerAdapter.java:118)
+	at org.springframework.security.config.annotation.SecurityConfigurerAdapter.postProcess(SecurityConfigurerAdapter.java:79)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.getAuthenticationEntryPoint(FlowableUiCustomFormLoginConfigurer.java:113)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.init(FlowableUiCustomFormLoginConfigurer.java:70)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.init(FlowableUiCustomFormLoginConfigurer.java:51)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:285)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:83)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:305)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@15c46930': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: loginFormUrl must be specified and must be a valid redirect URL
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:420)
+	at org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor.postProcess(AutowireBeanFactoryObjectPostProcessor.java:65)
+	... 41 common frames omitted
+Caused by: java.lang.IllegalArgumentException: loginFormUrl must be specified and must be a valid redirect URL
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint.afterPropertiesSet(LoginUrlAuthenticationEntryPoint.java:95)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 43 common frames omitted
+
+2021-11-25 15:58:33.152  INFO 22204 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 15:58:33.428  INFO 22204 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 15:58:33.812  INFO 22204 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3936 ms
+2021-11-25 15:58:35.190  INFO 22204 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 15:58:42.104  INFO 22204 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 15:58:42.106  INFO 22204 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 16:03:52.457  WARN 22204 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@587107c of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+2021-11-25 16:03:52.458  INFO 22204 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-25 16:03:52.951  INFO 22204 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-11-25 16:03:52.965  INFO 22204 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-25 16:03:53.003  INFO 22204 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-25 16:03:53.033 ERROR 22204 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@587107c of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:15)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@587107c of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 22 common frames omitted
+Caused by: java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@587107c of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor.postProcess(AutowireBeanFactoryObjectPostProcessor.java:69)
+	at org.springframework.security.config.annotation.SecurityConfigurerAdapter$CompositeObjectPostProcessor.postProcess(SecurityConfigurerAdapter.java:118)
+	at org.springframework.security.config.annotation.SecurityConfigurerAdapter.postProcess(SecurityConfigurerAdapter.java:79)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.getAuthenticationEntryPoint(FlowableUiCustomFormLoginConfigurer.java:113)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.init(FlowableUiCustomFormLoginConfigurer.java:70)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.init(FlowableUiCustomFormLoginConfigurer.java:51)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:285)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:83)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:305)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@587107c': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: loginFormUrl must be specified and must be a valid redirect URL
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:420)
+	at org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor.postProcess(AutowireBeanFactoryObjectPostProcessor.java:65)
+	... 41 common frames omitted
+Caused by: java.lang.IllegalArgumentException: loginFormUrl must be specified and must be a valid redirect URL
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint.afterPropertiesSet(LoginUrlAuthenticationEntryPoint.java:95)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 43 common frames omitted
+
+2021-11-25 16:04:06.387  INFO 16920 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 16:04:06.643  INFO 16920 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 16:04:07.018  INFO 16920 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2948 ms
+2021-11-25 16:04:08.405  INFO 16920 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 16:04:15.474  INFO 16920 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 16:04:15.476  INFO 16920 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 16:04:56.457  WARN 16920 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@1c89cec5 of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+2021-11-25 16:04:56.457  INFO 16920 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-25 16:04:56.958  INFO 16920 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-11-25 16:04:56.971  INFO 16920 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-25 16:05:08.085  INFO 9632 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 16:05:08.373  INFO 9632 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 16:05:08.746  INFO 9632 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2068 ms
+2021-11-25 16:05:10.142  INFO 9632 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 16:05:17.340  INFO 9632 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 16:05:17.341  INFO 9632 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 16:05:17.467  WARN 9632 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@7bbd133c of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+2021-11-25 16:05:17.467  INFO 9632 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-25 16:05:17.832  INFO 9632 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-11-25 16:05:17.840  INFO 9632 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-25 16:05:17.864  INFO 9632 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-25 16:05:17.884 ERROR 9632 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@7bbd133c of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:15)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@7bbd133c of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 22 common frames omitted
+Caused by: java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@7bbd133c of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor.postProcess(AutowireBeanFactoryObjectPostProcessor.java:69)
+	at org.springframework.security.config.annotation.SecurityConfigurerAdapter$CompositeObjectPostProcessor.postProcess(SecurityConfigurerAdapter.java:118)
+	at org.springframework.security.config.annotation.SecurityConfigurerAdapter.postProcess(SecurityConfigurerAdapter.java:79)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.getAuthenticationEntryPoint(FlowableUiCustomFormLoginConfigurer.java:113)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.init(FlowableUiCustomFormLoginConfigurer.java:70)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.init(FlowableUiCustomFormLoginConfigurer.java:51)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:285)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:83)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:305)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@7bbd133c': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: loginFormUrl must be specified and must be a valid redirect URL
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:420)
+	at org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor.postProcess(AutowireBeanFactoryObjectPostProcessor.java:65)
+	... 41 common frames omitted
+Caused by: java.lang.IllegalArgumentException: loginFormUrl must be specified and must be a valid redirect URL
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint.afterPropertiesSet(LoginUrlAuthenticationEntryPoint.java:95)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 43 common frames omitted
+
+2021-11-25 16:10:08.937  INFO 24920 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 16:10:09.604  INFO 24920 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 16:10:10.811  INFO 24920 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4013 ms
+2021-11-25 16:10:13.212  INFO 24920 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 16:10:21.678  INFO 24920 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 16:10:21.681  INFO 24920 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 16:10:26.534  WARN 24920 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@7df5358 of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+2021-11-25 16:10:26.534  INFO 24920 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-25 16:10:27.032  INFO 24920 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-11-25 16:10:27.042  INFO 24920 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-25 16:10:27.066  INFO 24920 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-25 16:10:27.091 ERROR 24920 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@7df5358 of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:15)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@7df5358 of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 22 common frames omitted
+Caused by: java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@7df5358 of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor.postProcess(AutowireBeanFactoryObjectPostProcessor.java:69)
+	at org.springframework.security.config.annotation.SecurityConfigurerAdapter$CompositeObjectPostProcessor.postProcess(SecurityConfigurerAdapter.java:118)
+	at org.springframework.security.config.annotation.SecurityConfigurerAdapter.postProcess(SecurityConfigurerAdapter.java:79)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.getAuthenticationEntryPoint(FlowableUiCustomFormLoginConfigurer.java:113)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.init(FlowableUiCustomFormLoginConfigurer.java:70)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.init(FlowableUiCustomFormLoginConfigurer.java:51)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:285)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:83)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:305)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@7df5358': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: loginFormUrl must be specified and must be a valid redirect URL
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:420)
+	at org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor.postProcess(AutowireBeanFactoryObjectPostProcessor.java:65)
+	... 41 common frames omitted
+Caused by: java.lang.IllegalArgumentException: loginFormUrl must be specified and must be a valid redirect URL
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint.afterPropertiesSet(LoginUrlAuthenticationEntryPoint.java:95)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 43 common frames omitted
+
+2021-11-25 16:19:35.917  INFO 23864 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 16:19:36.187  INFO 23864 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 16:19:36.569  INFO 23864 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3131 ms
+2021-11-25 16:19:38.042  INFO 23864 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 16:19:45.091  INFO 23864 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 16:19:45.093  INFO 23864 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 16:20:18.799  WARN 23864 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@33681da of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+2021-11-25 16:20:18.800  INFO 23864 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-11-25 16:20:19.298  INFO 23864 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2021-11-25 16:20:19.304  INFO 23864 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-25 16:20:19.330  INFO 23864 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-11-25 16:20:19.378 ERROR 23864 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@33681da of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1179)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:571)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:531)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:923)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.lut.licon.netty.NettyApplication.main(NettyApplication.java:15)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@33681da of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 22 common frames omitted
+Caused by: java.lang.RuntimeException: Could not postProcess org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@33681da of type class org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint
+	at org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor.postProcess(AutowireBeanFactoryObjectPostProcessor.java:69)
+	at org.springframework.security.config.annotation.SecurityConfigurerAdapter$CompositeObjectPostProcessor.postProcess(SecurityConfigurerAdapter.java:118)
+	at org.springframework.security.config.annotation.SecurityConfigurerAdapter.postProcess(SecurityConfigurerAdapter.java:79)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.getAuthenticationEntryPoint(FlowableUiCustomFormLoginConfigurer.java:113)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.init(FlowableUiCustomFormLoginConfigurer.java:70)
+	at org.flowable.ui.common.security.FlowableUiCustomFormLoginConfigurer.init(FlowableUiCustomFormLoginConfigurer.java:51)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:285)
+	at org.springframework.security.config.annotation.web.builders.WebSecurity.performBuild(WebSecurity.java:83)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:305)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 23 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.flowable.ui.common.security.FlowableLoginUrlAuthenticationEntryPoint@33681da': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: loginFormUrl must be specified and must be a valid redirect URL
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:420)
+	at org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor.postProcess(AutowireBeanFactoryObjectPostProcessor.java:65)
+	... 41 common frames omitted
+Caused by: java.lang.IllegalArgumentException: loginFormUrl must be specified and must be a valid redirect URL
+	at org.springframework.util.Assert.isTrue(Assert.java:121)
+	at org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint.afterPropertiesSet(LoginUrlAuthenticationEntryPoint.java:95)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1847)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784)
+	... 43 common frames omitted
+
+2021-11-25 16:20:53.204  INFO 17204 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 16:20:53.498  INFO 17204 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 16:20:53.916  INFO 17204 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2165 ms
+2021-11-25 16:20:55.354  INFO 17204 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 16:21:02.086  INFO 17204 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 16:21:02.088  INFO 17204 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 16:21:02.401  INFO 17204 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22027e62, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ef85262, org.springframework.security.web.header.HeaderWriterFilter@79a7f553, org.springframework.security.web.authentication.logout.LogoutFilter@11f415e4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1e31e7e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d800902, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4ca3e806, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@38f0de07, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d652bc6, org.springframework.security.web.session.SessionManagementFilter@3b3fa4c0, org.springframework.security.web.access.ExceptionTranslationFilter@6d921d6b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@442612a6]
+2021-11-25 16:21:02.421  INFO 17204 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-25 16:21:02.528  INFO 17204 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-11-25 16:21:02.530  INFO 17204 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-25 16:21:02.542  INFO 17204 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-25 16:21:02.542  INFO 17204 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637821945785"'s failed in-progress jobs.
+2021-11-25 16:21:17.078  INFO 17204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 16:21:17.080  INFO 17204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-11-25 16:51:21.127  INFO 26252 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'animalConfig' of type [com.lut.licon.netty.config.AnimalConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-25 16:51:21.419  INFO 26252 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-25 16:51:21.931  INFO 26252 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4503 ms
+2021-11-25 16:51:23.359  INFO 26252 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-25 16:51:30.335  INFO 26252 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : Using db table-based data access locking (synchronization).
+2021-11-25 16:51:30.337  INFO 26252 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : JobStoreCMT initialized.
+2021-11-25 16:52:31.496  INFO 26252 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a362dc7, org.springframework.security.web.context.SecurityContextPersistenceFilter@47ba8e3c, org.springframework.security.web.header.HeaderWriterFilter@bb0dcb6, org.springframework.security.web.authentication.logout.LogoutFilter@6a4ec62d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2e2b1310, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1638fa8b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15d6f0e1, org.springframework.security.web.authentication.rememberme.RememberMeAuthenticationFilter@14d294f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@564b86b, org.springframework.security.web.session.SessionManagementFilter@1192d1f5, org.springframework.security.web.access.ExceptionTranslationFilter@2c84d6c4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59f2a9e9]
+2021-11-25 16:52:31.515  INFO 26252 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2021-11-25 16:52:31.610  INFO 26252 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/licon'
+2021-11-25 16:52:31.612  INFO 26252 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-11-25 16:52:31.620  INFO 26252 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: detected 1 failed or restarted instances.
+2021-11-25 16:52:31.620  INFO 26252 --- [           main] o.s.s.quartz.LocalDataSourceJobStore     : ClusterManager: Scanning for instance "JTYSL-024D5W81637828462069"'s failed in-progress jobs.
+2021-11-25 16:52:49.466  INFO 26252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-25 16:52:49.467  INFO 26252 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

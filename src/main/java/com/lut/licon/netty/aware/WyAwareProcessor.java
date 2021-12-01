@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  * @author Licon
  * @date 2020/12/21 9:49
  */
-@Component
+//@Component
 public class WyAwareProcessor implements BeanPostProcessor, ApplicationContextAware {
     @Nullable
     private Wy wy;

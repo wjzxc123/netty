@@ -124,15 +124,17 @@ public class MybatisTest {
 
     @Test
     public void product() throws InterruptedException {
-        String context = "";
-        for (int i = 0; i < 10; i++) {
-            String s = HttpUtil.get("https://v1.jinrishici.com/all.json");
-            JSONObject jsonObject = JSONObject.parseObject(s);
-            context += jsonObject.getString("content");
-            context+="@";
-            context+=jsonObject.getString("author")+"《"+jsonObject.getString("origin")+"》\n";
-            Thread.sleep(500);
+        for (int j = 0; j < 2; j++) {
+            String context = "";
+            for (int i = 0; i < 1000; i++) {
+                String s = HttpUtil.get("https://v1.jinrishici.com/all.json");
+                JSONObject jsonObject = JSONObject.parseObject(s);
+                context += jsonObject.getString("content");
+                context+="@";
+                context+=jsonObject.getString("author")+"《"+jsonObject.getString("origin")+"》\n";
+                Thread.sleep(300);
+            }
+            FileUtil.appendString(context,"C:\\Users\\lvshaowei\\Desktop\\a.txt", CharsetUtil.GBK);
         }
-        FileUtil.appendString(context,"C:\\Users\\lvshaowei\\Desktop\\daybyday.txt", CharsetUtil.GBK);
     }
 }

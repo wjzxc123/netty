@@ -1,8 +1,11 @@
+
 licon:
   animal:
     animal-type: cat
 spring:
-#  kafka:
+  application:
+    name: workflow
+  #  kafka:
 #    bootstrap-servers: 127.0.0.1:9092
 #    producer:
 #      # 写入失败时，重试次数。当leader节点失效，一个replication节点会替代成为leader节点，此时可能出现写入失败，
@@ -59,11 +62,16 @@ spring:
 #      #设置批量消费
 #      type: batch
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: root
-    type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://127.0.0.1:3306/domian?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=CTT
+    dbdata:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: root
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/domian?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false
+    quartz:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: admin
+      password: root
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/domian?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false
   quartz:
     # 将任务等保存化到数据库
     job-store-type: jdbc
@@ -74,6 +82,13 @@ spring:
     properties:
       org:
         quartz:
+          dataSource:
+            quartzDS:
+              provider: hikaricp
+              driver: com.mysql.cj.jdbc.Driver
+              URL: jdbc:mysql://127.0.0.1:3306/domian?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false
+              user: root
+              password: root
           # scheduler相关
           scheduler:
             # scheduler的实例名
@@ -91,6 +106,7 @@ spring:
             isClustered: true
             # 容许的最大作业延长时间
             clusterCheckinInterval: 20000
+            dataSource: quartzDS
           # 线程池相关
           threadPool:
             class: org.quartz.simpl.SimpleThreadPool
@@ -99,12 +115,12 @@ spring:
             # 线程优先级
             threadPriority: 5
             threadsInheritContextClassLoaderOfInitializingThread: true
+
   profiles:
     active: dev
   output:
     ansi:
       enabled: always
-
 pagehelper:
   params: pageNum=page;pageSize=pageSize;
   helper-dialect: mysql
@@ -118,3 +134,80 @@ logging:
         licon:
           netty: debug
   config: classpath:logback-spring.xml
+
+flowable:
+  check-process-definitions: false
+  process-definition-location-prefix: classpath*:/bpmn/
+  common:
+    app:
+      idm-url: http://localhost:${server.port}/${spring.application.name}/idm
+      idm-admin:
+        user: admin
+        password: admin
+  admin:
+    app:
+      server-config:
+        app:
+          context-root: ${spring.application.name}
+          password: test
+          server-address: http://localhost
+          user-name: admin
+          port: ${server.port}
+          rest-root: app-api
+          name: Flowable App app
+          description: Flowable App REST config
+        process:
+          context-root: ${spring.application.name}
+          server-address: http://localhost
+          password: test
+          user-name: admin
+          rest-root: process-api
+          port: ${server.port}
+          name: Flowable Process app
+          description: Flowable Process REST config
+        form:
+          context-root: ${spring.application.name}
+          server-address: http://localhost
+          password: test
+          user-name: admin
+          port: ${server.port}
+          rest-root: form-api
+          name: Flowable Form app
+          description: Flowable Form REST config
+        dmn:
+          context-root: ${spring.application.name}
+          server-address: http://localhost
+          password: test
+          user-name: admin
+          port: ${server.port}
+          rest-root: dmn-api
+          name: Flowable DMN app
+          description: Flowable DMN REST config
+        cmmn:
+          context-root: ${spring.application.name}
+          password: test
+          server-address: http://localhost
+          user-name: admin
+          port: ${server.port}
+          rest-root: cmmn-api
+          name: Flowable CMMN app
+          description: Flowable CMMN REST config
+        content:
+          context-root: ${spring.application.name}
+          server-address: http://localhost
+          password: test
+          user-name: admin
+          rest-root: content-api
+          port: ${server.port}
+          name: Flowable Content app
+          description: Flowable Content REST config
+      security:
+        encryption:
+          credentials-i-v-spec: j9yj1570deeromv4
+          credentials-secret-spec: j9yj1570deeromv4
+  database-schema-update: true
+  annotation-font-name: 宋体
+
+server:
+  servlet:
+    context-path: /

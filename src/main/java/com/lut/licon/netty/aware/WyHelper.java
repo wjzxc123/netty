@@ -16,7 +16,7 @@ public class WyHelper implements WyAware{
     @Override
     public void setWy(Wy wy) {
         System.out.println(wy.toString());
-        this.wy = wy;
+        WyHelper.wy = wy;
     }
 
     public static Wy  getWy(){
